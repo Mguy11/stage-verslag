@@ -1,0 +1,13 @@
+//Components
+@import './components/button.scss';
+
+//Webparts
+@import './webparts/navigation.scss';
+
+//Variables
+@import './vars/_colors';
+
+//Reset
+@import './vars/_resets';
+
+@import './app.scss';

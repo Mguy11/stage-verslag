@@ -1,0 +1,36 @@
+.button {
+  $self: &;
+
+  &__text {
+
+  }
+
+  &__hamburger {
+    &::before {
+      content: '';
+      cursor: pointer;
+      position: absolute;
+      height: 2rem;
+      width: 2rem;
+      background: url('../../assets/icons/hamburger-menu-red.svg') no-repeat center center;
+    }
+  }
+
+  &__close {
+
+    position: absolute;
+    top: 0.5rem;
+    right: 2.5rem;
+
+    &::before {
+      content: '';
+      cursor: pointer;
+      width: 2rem;
+      height: 2rem;
+      position: absolute;
+      height: 2rem;
+      width: 2rem;
+      background: #d70f08 url('../../assets/icons/x-mark-white.svg') no-repeat center center;
+    }
+  }
+}
