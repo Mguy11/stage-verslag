@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.largeheader {
+  $self: &;
+
+  height: 100%;
+  width: 100%;
+
+  &__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 80vh;
+    width: 100%;
+    background: url('../../assets/images/hands.jpg') no-repeat center center;
+  }
+
+  &__image-wrapper {
+    height: 80vh;
+  }
+
+  &__title {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 7.2rem;
+  }
+
+  &__title-box {
+    position: absolute;
+    background-color: #ff0000;
+    z-index: 3;
+  }
+}

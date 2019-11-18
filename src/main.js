@@ -1,17 +1,33 @@
 import React, { Component } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default class Main extends Component {
-  showSettings (event) {
-    event.preventDefault();
+    showSettings (event) {
+        event.preventDefault();
 
-  }
+    }
 
-  render () {
-    // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
-    return (
-      <div className="main">
-        <p> test</p>
-      </div>
-    );
-  }
+    render () {
+        return (
+            <Container>
+                <Row>
+                    <Col lg={12}>
+                       
+                    </Col>
+                </Row>
+            <Row>
+                <Col xs={12} lg={6}>
+                    <div className="">
+
+                    </div>
+                </Col>
+                <Col xs={12} lg={6}>
+                    <div className="">
+
+                    </div>
+                </Col>
+            </Row>
+            </Container>
+        );
+    }
 }
