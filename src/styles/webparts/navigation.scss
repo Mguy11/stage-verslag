@@ -66,6 +66,15 @@
   &__item-text {
     color: #fff;
     text-decoration: none;
+
+    &:hover  {
+      text-decoration: none;
+      color: #fff;
+    }
   }
 
+}
+
+.dock {
+  background-color: #ff0000;
 }

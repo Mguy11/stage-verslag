@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class LargeHeader extends Component {
+export default class SmallHeader extends Component {
     showSettings (event) {
         event.preventDefault();
     }
@@ -8,8 +8,8 @@ export default class LargeHeader extends Component {
     render () {
         return (
           <div className="header">
-                <span className="header__title header__title--large">Welkom!</span>
-                <figure className="header__image-wrapper header__image-wrapper--large">
+                <span className="header__title header__title--small">Welkom!</span>
+                <figure className="header__image-wrapper header__image-wrapper--small">
                     <img className="header__image"/>
                 </figure>
           </div>

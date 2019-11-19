@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-.largeheader {
+.header {
   $self: &;
 
   height: 100%;
   width: 100%;
 
   &__image {
-    position: absolute;
     left: 0;
     top: 0;
     height: 100%;
@@ -16,20 +15,37 @@
   }
 
   &__image-wrapper {
-    height: 100vh;
+    &--large {
+      height: 100vh;
+    }
+
+    &--small {
+      height: 40vh;
+    }
   }
 
   &__title {
     font-family: 'Montserrat', sans-serif;
     position: absolute;
-    font-size: 7.2rem;
-    line-height: 8rem;
     text-align: center;
     color: #fff;
     width: 100%;
-    top: 50%;
-    margin-top: -4rem;
     z-index: 1;
+    
+    &--large {
+      font-size: 7.2rem;
+      line-height: 8rem;
+      margin-top: -4rem;
+      top: 50%;
+    }
+
+    &--small {
+      font-size: 4.8rem;
+      line-height: 5rem;
+      margin-top: -6.5rem;
+      top: 25%;
+    }
+
   }
 
   &__title-box {
