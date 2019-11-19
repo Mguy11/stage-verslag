@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Grid, Row, Col } from 'react-flexbox-grid';
 
 import LargeHeader from '../components/largeheader';
 
@@ -13,9 +11,10 @@ export default class Home extends Component {
 
     render () {
         return (
-            <Container>
+          <div className="wrap">
+            <LargeHeader />
+            <Grid>
                 <Row>
-                  <LargeHeader />
                 </Row>
                 <Row style={{padding: '4rem'}}>
                     <Col xs={6}>
@@ -31,7 +30,8 @@ export default class Home extends Component {
                         </div>
                     </Col>
                 </Row>
-            </Container>
+            </Grid>
+          </div>
         );
     }
 }
