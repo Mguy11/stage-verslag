@@ -21,6 +21,11 @@ module.exports = {
         test: /\.css$/,
         loader: 'style-loader!css-loader',
         include: /flexboxgrid/
+      },
+      {
+        exclude: [/node_modules\/(?!(swiper|dom7)\/).*/, /\.test\.js(x)?$/],
+        test: /\.js(x)?$/,
+        use: [{ loader: 'babel-loader' }],
       }
     ]
   },

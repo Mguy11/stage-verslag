@@ -2,12 +2,12 @@ import React from 'react';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import { Home } from "./pages/home";
-import { Betrokken } from './pages/betrokken';
-import { Ondernemen } from './pages/ondernemen';
-import { Onderzoeken } from './pages/onderzoeken';
-import { Ontwerpen } from './pages/ontwerpen';
-import { Ontwikkelen } from './pages/ontwikkelen';
+import Home from "./pages/home";
+import Betrokken from './pages/betrokken';
+import Ondernemen from './pages/ondernemen';
+import Onderzoeken from './pages/onderzoeken';
+import Ontwerpen from './pages/ontwerpen';
+import Ontwikkelen from './pages/ontwikkelen';
 
 import './styles/app.scss';
 import './styles/style.scss';

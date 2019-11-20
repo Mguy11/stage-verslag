@@ -4,17 +4,20 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import SmallHeader from '../components/smallheader';
 import Navigation  from '../webparts/_navigation';
 import { Footer } from '../webparts/_footer';
+import  Slider  from '../components/slider';
 
-export const Betrokken = () => {
+const Betrokken = () => {
+  
+  const title = 'Betrokken';
+
   return (
     <div className="betrokken">
-      <SmallHeader />
+      <SmallHeader
+        title = "Betrokken"
+       />
       <Navigation />
       <div className="wrap">
         <Grid>
-            <Row>
-              <h1 class="content__title">Betrokken</h1>
-            </Row>
             <Row style={{padding: '4rem'}}>
                 <Col xs={6}>
                     <div className="content__block content__block--grey">
@@ -29,10 +32,16 @@ export const Betrokken = () => {
                     </div>
                 </Col>
             </Row>
+            <Row>
+              <Col xs={12}>
+                <Slider />
+              </Col>
+            </Row>
         </Grid>
       </div>
       <Footer />
     </div>
-  );
-    
+  ); 
 }
+
+export default Betrokken;

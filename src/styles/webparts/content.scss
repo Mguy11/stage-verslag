@@ -7,9 +7,11 @@
   &__title {
     font-size: 4.8rem;
     line-height: 5rem;
+    color: #fff;
   }
 
   &__block {
+    color: #fff;
     padding: 4rem 2rem;
     
     &--grey {
@@ -18,7 +20,6 @@
   }
   
   &__image {
-    border-radius: 0rem 2rem;
     position: relative;
     height: 100%;
     background: url('../../assets/images/kleurtjes.jpg') no-repeat center center;
