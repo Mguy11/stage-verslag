@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 import SmallHeader from '../components/smallheader';
-import Navigation from '../webparts/_navigation';
+import NavBar from '../components/navbar';
 import { Footer } from '../webparts/_footer';
 
 const Ondernemen = () => {
@@ -11,7 +11,7 @@ const Ondernemen = () => {
             <SmallHeader 
                 title = "Ondernemen"
             />
-            <Navigation />
+            <NavBar />
             <div className="wrap">
             <Grid>
                 <Row style={{padding: '4rem'}}>

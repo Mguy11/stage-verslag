@@ -2,19 +2,19 @@ import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 import LargeHeader from '../components/largeheader';
-import Navigation from '../webparts/_navigation';
 import { Footer } from '../webparts/_footer';
 import  Slider  from '../components/slider';
 import ContentBlock from '../components/contentBlock';
+import NavBar from '../components/navbar';
 
 
 const Home = () => {
     return (
-        <div className="home">
+        <div className="home particles-js">
             <LargeHeader 
                 title = "Stageverslag - Martijn Bankert"
             />
-            <Navigation />
+            <NavBar />
             <div className="wrap">
                 <Grid style={{marginTop: '4rem'}}>
                     <Row>

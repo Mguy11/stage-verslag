@@ -7,12 +7,12 @@ export default class SmallHeader extends Component {
 
     render () {
         return (
-          <div className="header header--small">
+          <header className="header header--small">
                 <span className="header__title header__title--small">{this.props.title}</span>
                 <figure className="header__image-wrapper header__image-wrapper--small">
                     <img className="header__image"/>
                 </figure>
-          </div>
+          </header>
         );
     }
 }

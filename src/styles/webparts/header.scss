@@ -16,7 +16,7 @@
       background-color: #22262d;
       z-index: 2;
       height: 25%;
-      clip-path: polygon(100% 0, 0 100%, 100% 100%);
+      clip-path: polygon(100% 30%, 100% 100%, 0 100%, 0 80%);
     }
   
     &::after {
@@ -28,7 +28,7 @@
       background-color: #22262d;
       z-index: 2;
       height: 25%;
-      clip-path: polygon(0 0, 0 100%, 100% 0);
+      clip-path: polygon(100% 0, 100% 20%, 0 70%, 0 0);
     }
   }
 
@@ -47,7 +47,7 @@
   &__image-wrapper {
     &--large {
       height: 100%;
-      background-image: url('../../assets/images/natuur.gif');
+      background: url('../../assets/images/natuur.gif') no-repeat center center;
       background-size: cover;
       background-repeat: no-repeat;
 
@@ -60,7 +60,7 @@
     }
     
     &--small {
-      height: 40vh;
+      height: 100%;
       background: url('../../assets/images/hands.jpg') no-repeat center center;
     }
   }
@@ -77,7 +77,7 @@
       bottom: 8rem;
       z-index: 3;
       width: 90%;
-      transform: rotate(-7.6deg);
+      transform: rotate(-4deg);
     }
     
     &--small {
@@ -99,5 +99,10 @@
 
   &__logo-background {
     background-color: #282828;
+  }
+
+  &__overlay {
+    position: absolute;
+    z-index: 4;
   }
 }
