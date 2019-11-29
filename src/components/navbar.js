@@ -1,14 +1,59 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import classNames from 'classnames';
+
+import Logo from '../components/parts/logo';
+
+const NavBarSticky = 'navbar--sticky';
 
 export default class NavBar extends Component {
-    showSettings (event) {
+    state = {
+        sticky: window.pageYOffset >= 80
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleWindowScroll);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleWindowScroll);
+    }
+
+    handleWindowScroll = (event) => {
+        const { sticky } = this.state;
+        const shouldBeSticky = window.pageYOffset >= 10;
+
+        if (sticky && !shouldBeSticky) {
+            this.setState({
+                sticky: false
+            })
+        }
+
+        if (!sticky && shouldBeSticky) {
+            this.setState({
+                sticky: true,
+            })
+        }
+    }
+
+    showSettings(event) {
         event.preventDefault();
     }
 
-    render () {
+    render() {
+        //same functionality as a ternary operator
+        const cx = classNames({
+            nav: true,
+            'nav--sticky': this.state.sticky
+        })
+
         return (
-          <div className="nav">
+            <div className={cx}>
+                <div className="logo">
+                    <Link to="/">
+                        <img src="..'/../../logo_transparent.png" alt="Logo-Martijn-Bankert" className="logo__image" />
+                    </Link>
+                </div>
                 <ul className="nav__items">
                     <li className="nav__item">
                         <Link to="/" className="nav__link">Home</Link>
@@ -39,7 +84,7 @@ export default class NavBar extends Component {
                         </Link>
                     </li>
                 </ul>
-          </div>
+            </div>
         );
     }
 }

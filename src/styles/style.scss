@@ -1,9 +1,10 @@
 //Components
+@import './components/navbar.scss';
 @import './components/button.scss';
 @import './components/slider.scss';
 @import './components/contentblock.scss';
 @import './components/Parts/singleslide.scss';
-@import './components/navbar.scss';
+@import './components/Parts/logo.scss';
 
 //Webparts
 @import './webparts/navigation.scss';

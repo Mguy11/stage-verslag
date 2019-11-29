@@ -16,7 +16,7 @@
       background-color: #22262d;
       z-index: 2;
       height: 25%;
-      clip-path: polygon(100% 30%, 100% 100%, 0 100%, 0 80%);
+      clip-path: polygon(100% 30%, 100% 100%, 0 100%, 0 70%);
     }
   
     &::after {
@@ -28,7 +28,7 @@
       background-color: #22262d;
       z-index: 2;
       height: 25%;
-      clip-path: polygon(100% 0, 100% 20%, 0 70%, 0 0);
+      clip-path: polygon(100% 0, 100% 30%, 0 70%, 0 0);
     }
   }
 
@@ -47,7 +47,8 @@
   &__image-wrapper {
     &--large {
       height: 100%;
-      background: url('../../assets/images/natuur.gif') no-repeat center center;
+      background-color: #990000;
+      //background: url('../../assets/images/natuur.gif') no-repeat center center;
       background-size: cover;
       background-repeat: no-repeat;
 
@@ -74,10 +75,10 @@
       font-size: 6.4rem;
       line-height: 6.6rem;
       margin-top: -4rem;
-      bottom: 8rem;
+      bottom: 9rem;
       z-index: 3;
       width: 90%;
-      transform: rotate(-4deg);
+      transform: rotate(-3deg);
     }
     
     &--small {
