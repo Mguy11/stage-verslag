@@ -8,7 +8,7 @@
     width: 100%;
     z-index: 5;
     color: #fff;
-    transition: background-color 10ms ease-out;
+    transition: background-color  ease-out;
 
     ul {
         margin: 0;
@@ -74,7 +74,7 @@
 
     &--sticky {
         background-color: #990000;
-        transition: background-color 0.2s ease-in-out;
+        transition: background-color  ease-in-out;
     }
 
 }
