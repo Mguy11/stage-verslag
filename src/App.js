@@ -12,6 +12,7 @@ import Ontwikkelen from './pages/ontwikkelen';
 import './styles/app.scss';
 import './styles/style.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css/animate.min.css';
 
 
 function App() {
