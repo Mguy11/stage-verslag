@@ -57,7 +57,7 @@
             left: 0;
             top: 2rem;
             height: 0.2rem;
-            transition: width 0.2s ease-in-out, background-color 10ms ease-in-out;
+            transition: width 0.4s ease-in-out, background-color 0.4s ease-in-out;
         }
       
         &:hover {
@@ -73,8 +73,13 @@
     }
 
     &--sticky {
-        background-color: #990000;
-        transition: background-color  ease-in-out;
+        background-color: #313345;
+        animation: slideInDown 0.4s cubic-bezier(.11,.28,.58,1);
+        box-shadow: 0 -0.5rem 3rem #000;
     }
-
 }
+
+
+
+
+

@@ -19,5 +19,3 @@ export default class ContentBlock extends Component {
         );
     }
 }
-
-<a href="https://dotcontrol.com" className="contentblock__DC-link" target="_blank">&nbsp;DotControl&nbsp;</a>

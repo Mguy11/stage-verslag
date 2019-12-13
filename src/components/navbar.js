@@ -49,11 +49,6 @@ export default class NavBar extends Component {
 
         return (
             <div className={cx}>
-                <div className="logo">
-                    <Link to="/">
-                        <img src="..'/../../logo_transparent.png" alt="Logo-Martijn-Bankert" className="logo__image" />
-                    </Link>
-                </div>
                 <ul className="nav__items">
                     <li className="nav__item">
                         <Link to="/" className="nav__link">Home</Link>
