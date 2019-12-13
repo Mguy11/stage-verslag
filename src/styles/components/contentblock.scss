@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Julius+Sans+One&display=swap');
+
 .contentblock {
     $self: &;
 
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 700;
     color: #fff;
     padding: 6rem 0;
     position: relative;

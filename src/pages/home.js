@@ -26,19 +26,6 @@ const Home = () => {
                             />      
                     </Row>
                     <Row style={{margin: '2rem 0'}}>
-                        <Col xs={6}>
-                            <ContentBlock 
-                                title = ""
-                                body = ""
-                            />
-                        </Col>
-                        <Col xs={6}>
-                            <div className="content__image">
-                                <figure className="content__image-wrapper">
-                                    <img className="image"/>
-                                </figure>
-                            </div>
-                        </Col>
                     </Row>
                     <Row style={{margin: '1rem 0'}}>
                         <Col xs={6}>

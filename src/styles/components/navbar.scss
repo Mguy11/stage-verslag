@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Julius+Sans+One&display=swap');
+
 .nav {
     $self: &;
 
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 700;
     background-color: transparent;
     position: fixed;
     align-self: center;

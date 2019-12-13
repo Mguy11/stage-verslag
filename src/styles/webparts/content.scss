@@ -20,8 +20,14 @@
   }
   
   &__image {
-    position: relative;
     height: 100%;
-    background: url('../../assets/images/kleurtjes.jpg') no-repeat center center;
+    width: 100%;
+  }
+
+  &__image-wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: url('../../assets/images/matrix-laptop.jpg') no-repeat center center;
   }
 }
