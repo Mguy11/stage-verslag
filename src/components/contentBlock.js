@@ -9,8 +9,8 @@ export default class ContentBlock extends Component {
     render () {
         return (
             <Col xs={12}>
-                <div className="contentblock">
-                    <h2 className="contentblock__title">{this.props.title}</h2>
+                <div className={this.props.className}>
+                    <h2 className={"contentblock__title"}>{this.props.title}</h2>
                         <div className="contentblock__content">
                             {this.props.body}
                         </div>

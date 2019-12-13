@@ -19,7 +19,8 @@ const Home = () => {
                 <Grid style={{marginTop: '2rem'}}>
                     <Row>
                             <ContentBlock 
-                                title = ""
+                                className = "contentblock contentblock--intro"
+                                title = "Test"
                                 body = "Deze website heb ik gebouwd voor de verslaglegging van mijn 3e jaars stage. 
                                 Ik heb mijn stage gelopen bij DotControl in Rotterdam. DotControl is samen met RockBoost een full service web bureau. "
                             />      

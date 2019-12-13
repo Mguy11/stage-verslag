@@ -49,6 +49,7 @@ export default class NavBar extends Component {
 
         return (
             <div className={cx}>
+                <Logo />
                 <ul className="nav__items">
                     <li className="nav__item">
                         <Link to="/" className="nav__link">Home</Link>
