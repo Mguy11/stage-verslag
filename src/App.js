@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from "./pages/home";
+import Introductie from './pages/intro';
 import Betrokken from './pages/betrokken';
 import Ondernemen from './pages/ondernemen';
 import Onderzoeken from './pages/onderzoeken';
@@ -20,6 +21,7 @@ function App() {
     <BrowserRouter>
     <Switch>
       <Route path="/" exact component={Home} />
+      <Route path="/introductie" exact component={Introductie} />
       <Route path="/betrokken" exact component={Betrokken} />
       <Route path="/ondernemen" exact component={Ondernemen} />
       <Route path="/onderzoeken" exact component={Onderzoeken} />

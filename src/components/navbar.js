@@ -55,6 +55,11 @@ export default class NavBar extends Component {
                         <Link to="/" className="nav__link">Home</Link>
                     </li>
                     <li className="nav__item">
+                        <Link to="/introductie" className="nav__link">
+                            <span>Introductie</span>
+                        </Link>
+                    </li>
+                    <li className="nav__item">
                         <Link to="/betrokken" className="nav__link">
                             <span>Betrokken</span>
                         </Link>

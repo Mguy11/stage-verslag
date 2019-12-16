@@ -1,0 +1,21 @@
+.tab {
+    &__list {
+        border-bottom: 0.1rem solid #ccc;
+        padding-left: 0;
+
+        &--active {
+            background-color: #313345;
+            border: solid #ccc;
+            border-width: 0.1rem 0.1rem 0 0.1rem;
+            box-shadow: 0 0.3rem 0.5rem #313345
+        }
+
+    }
+
+    &__list-item {
+        display: inline-block;
+        list-style: none;
+        margin-bottom: -0.1rem;
+        padding: 0.5rem 0.75rem;
+    }
+}

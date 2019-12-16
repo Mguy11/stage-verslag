@@ -6,7 +6,7 @@
     font-family: 'Electrolize', sans-serif;
     font-weight: 700;
     color: #fff;
-    padding: 6rem 0;
+    margin: 6rem 0;
     position: relative;
 
     &__title {
@@ -14,14 +14,14 @@
         font-size: 3.2rem;
         line-height: 3rem;
         font-weight: 700;
-        margin: 1rem 0;
+        margin: 1.5rem 0;
     }
 
     &__content {
-        margin-bottom: 5rem;
         text-align: center;
-        font-size: 1.4rem;
-        line-height: 1.6rem;
+        margin-bottom: 5rem;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
     }
 
     &__DC-link {
@@ -34,6 +34,11 @@
     }
 
     &--intro {
+        #{$self}__content{
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+        }
+
         &::after{
             content: '';
             position: absolute;
@@ -41,6 +46,36 @@
             width: 40rem;
             background-color: #fff;
             left: calc(50% - 20rem);
+        }
+    }
+
+    &--left {
+        #{$self}__content{
+            text-align: left;
+            padding: 0 1rem;
+        }
+    }
+
+    &--right {
+        #{$self}__content{
+            text-align: left;
+            padding: 0 1rem;
+        }
+    }
+
+    &--middle {
+        #{$self}__content{
+            text-align: center;
+            padding: 0 1rem;
+        }
+    }
+
+    &--alinea {
+        margin: 1rem 0;
+
+        #{$self}__content{
+            text-align: left;
+            margin-bottom: 1rem;
         }
     }
 }

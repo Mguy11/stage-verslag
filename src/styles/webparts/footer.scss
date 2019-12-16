@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Julius+Sans+One&display=swap');
+
 .footer {
     $self: &;
+    font-family: 'Electrolize', sans-serif;
 
     &__banner {
         width: 100%;
@@ -8,14 +11,14 @@
     }
 
     &__name {
-        font-size: 1.4rem;
-        line-height: 1.6rem;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
         color: #fff;
     }
 
     &__date {
-        font-size: 1.4rem;
-        line-height: 1.6rem;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
         color: #fff;
     }
 }
