@@ -1,38 +1,61 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Document, Page } from 'react-pdf';
 
 import SmallHeader from '../components/smallheader';
 import NavBar from '../components/navbar';
 import { Footer } from '../webparts/_footer';
+import  Slider  from '../components/slider';
+import Tabs from '../webparts/_tabs';
+import ContentBlock from '../components/contentBlock';
+import TestimonialBlock from '../components/testimonialBlock';
 
-const Onderzoeken = () => {
-    return (
-        <div className="onderzoeken">
-            <SmallHeader
-                title = "Onderzoeken"
-            />
-            <NavBar />
-            <div className="wrap">
-            <Grid>
-                <Row style={{padding: '4rem'}}>
-                    <Col xs={6}>
-                        <div className="content__block content__block--grey">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        </div>
-                    </Col>
-                    <Col xs={6}>
-                        <div className="content__image">
-                            <figure className="content__image-wrapper">
-                                <img className="image"/>
-                            </figure>
-                        </div>
-                    </Col>
-                </Row>
-            </Grid>
+
+export default class Onderzoeken extends Component {
+    state = {
+        numPages: null,
+        pageNumber: 1,
+    }
+    
+    onDocumentLoadSuccess = ({ numPages }) => {
+        this.ListeningStateChangedEvent({ numPages });
+    }
+    
+    render() {
+        const { pageNumber, numPages } = this.state;
+
+        return (
+            <div className="onderzoeken">
+                <SmallHeader
+                    title = "Onderzoeken"
+                />
+                <NavBar />
+                <div className="wrap">
+                <Grid>
+                    <TestimonialBlock
+                        subtitle1="Onderzoeken en analyseren: "
+                        body1=" De CMGT'er is in staat op structurele wijze een bronnen- en veldonderzoek uit te voeren in opdracht van het stagebedrijf 
+                        en op basis van de verzamelde data conclusies te trekken en aanbevelingen te doen. De CMGT'er reflecteert de resultaten van het onderzoek kritisch."
+                        subtitle2=""
+                        body2=""
+                        subtitle3=""
+                        body3=""
+                    />
+                    <Row>
+                    <Document
+                        file="../assets/documents/Onderzoeksverslag-SEO-SPA-versie-2.docx"
+                        onLoadSuccess={this.onDocumentLoadSuccess}
+                    >
+                        <Page pageNumber={pageNumber} />
+                    </Document>
+                    <p>Page {pageNumber} of {numPages}</p>
+                    </Row>
+                </Grid>
+                </div>
+                <Footer />
             </div>
-            <Footer />
-        </div>
-    );
+        );
+    }
 }
 
-export default Onderzoeken;
+

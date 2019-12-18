@@ -1,0 +1,17 @@
+.testimonialblock {
+    padding-bottom: 4rem;
+    font-style: italic;
+
+    &__subtitle {
+        color: #fff;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        font-weight: 700;
+    }
+
+    &__body {
+        color: #fff;
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+}

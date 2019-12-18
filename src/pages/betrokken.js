@@ -20,7 +20,6 @@ const Betrokken = () => {
             <div className="wrap">
                 <Grid>
                     <TestimonialBlock
-                        class=""
                         subtitle1="Lerend vermogen: "
                         body1="Ik ben kritisch en streef ernaar het beste in mezelf en anderen naar boven te halen. 
                         Ik reflecteer structureel op eigen ervaringen en feedback vanuit het stagebedrijf en trek daaruit lessen voor de toekomst."
@@ -51,13 +50,18 @@ const Betrokken = () => {
                         <div label="Toolsoup">
                             
                         </div>
+                        <div label="Wat heb ik geleerd?">
+                            
+                        </div>
+                        <div label="Wat zou ik anders doen?">
+                            
+                        </div>
                     </Tabs>
                     <Row>
                         <Col xs={12}>
                         <Slider />
                         </Col>
                     </Row>
-                    
                 </Grid>
             </div>
             <Footer />
