@@ -22,12 +22,11 @@ const Ondernemen = () => {
                     subtitle1="Ondernemende houding: "
                     body1="De CMGT'er heeft een actueel beeld van de stand van zaken in de maatschappij op het gebied van technologie. 
                     Dit beeld wordt gebruikt om oplossingen te ontwikkelen die er toe doen voor de klant of het stagebedrijf, en deze uit zichzelf aan te dragen."
-                    subtitle2="Ontwikkelen en prototypen: "
-                    body2="De CMGT'er is in staat om iteratief te ontwikkelen, om zo deadlines en afspraken na te komen. 
-                    Hij heeft een gedegen kennis op programmeergebied en is flexibel genoeg om zich snel in te werken in nieuwe talen, platformen, tools en de werkwijze binnen het stagebedrijf."
-                    subtitle3="Testen en implementeren: "
-                    body3="De CMGT'er is in staat de correcte werking van producten te testen, waarbij analyse van een iteratie tot verbeteringen in de volgende iteratie leidt. 
-                    Zowel op functioneel- als technisch vlak worden vooraf door de klant of stagebedrijf goedgekeurde testopzet en testdoelen bepaald. "
+                    subtitle2="Ondernemende vaardigheden: "
+                    body2="De CMGT'er houdt zijn kennis over actuele ontwikkelingen bij en weet zijn bronnen daarvoor op waarde te schatten. Hierdoor is de CMGT'er in staat kansen te zien waar de klant of het 
+                    stagebedrijf met behulp van technologie waarde kan creëren. Onder begeleiding kan hij hier een analyse met een trendrapportage en verdienmodellen van maken."
+                    subtitle3="Projectmatig werken: "
+                    body3="De CMGT'er is in staat om zowel individueel als in teamverband iteratief te werken aan de ontwikkeling van producten. De CMGT'er kan hierin diverse rollen aannemen, en communiceert tijdig en duidelijk met belanghebbenden."
                 />
                 <Tabs style={{padding: '4rem'}}>
                     <div label="Dura Vermeer">
