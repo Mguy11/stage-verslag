@@ -74,6 +74,16 @@
             }
         }
 
+        &--active {
+            text-decoration: none;
+            color: #fff;
+
+            &::after {
+              background: #fff;
+              width: 100%;
+            }
+        }
+
     }
 
     &--sticky {

@@ -17,20 +17,20 @@ import 'animate.css/animate.min.css';
 
 
 function App() {
-  return (
-    <BrowserRouter>
-    <Switch>
-      <Route path="/" exact component={Home} />
-      <Route path="/introductie" exact component={Introductie} />
-      <Route path="/betrokken" exact component={Betrokken} />
-      <Route path="/ondernemen" exact component={Ondernemen} />
-      <Route path="/onderzoeken" exact component={Onderzoeken} />
-      <Route path="/ontwerpen" exact component={Ontwerpen} />
-      <Route path="/ontwikkelen" exact component={Ontwikkelen} />
-      <Route patch="/" render={() => <div>404</div>} />
-    </Switch>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route path="/introductie" exact component={Introductie} />
+                <Route path="/betrokken" exact component={Betrokken} />
+                <Route path="/ondernemen" exact component={Ondernemen} />
+                <Route path="/onderzoeken" exact component={Onderzoeken} />
+                <Route path="/ontwerpen" exact component={Ontwerpen} />
+                <Route path="/ontwikkelen" exact component={Ontwikkelen} />
+                <Route patch="/" render={() => <div>404</div>} />
+            </Switch>
+        </BrowserRouter>
+    );
 }
 
 export default App;

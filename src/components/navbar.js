@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import classNames from 'classnames';
 
 import Logo from '../components/parts/logo';
@@ -54,37 +54,52 @@ export default class NavBar extends Component {
                     <Logo />
                     </li>
                     <li className="nav__item">
-                        <Link to="/" className="nav__link">Home</Link>
-                    </li>
-                    <li className="nav__item">
-                        <Link to="/introductie" className="nav__link">
+                        <NavLink 
+                            activeClassName="nav__link--active"
+                            className="nav__link"
+                            to="/introductie"> 
                             <span>Introductie</span>
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="nav__item">
-                        <Link to="/betrokken" className="nav__link">
+                        <NavLink
+                            activeClassName="nav__link--active"
+                            className="nav__link"
+                            to="/betrokken">
                             <span>Betrokken</span>
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="nav__item">
-                        <Link to="/ondernemen" className="nav__link">
+                        <NavLink 
+                            activeClassName="nav__link--active"
+                            className="nav__link"
+                            to="/ondernemen">
                             <span>Ondernemen</span>
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="nav__item">
-                        <Link to="/onderzoeken" className="nav__link">
+                        <NavLink 
+                            activeClassName="nav__link--active"
+                            className="nav__link"
+                            to="/onderzoeken">
                             <span>Onderzoeken</span>
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="nav__item">
-                        <Link to="/ontwerpen" className="nav__link">
+                        <NavLink 
+                            activeClassName="nav__link--active"
+                            className="nav__link"
+                            to="/ontwerpen">
                             <span>Ontwerpen</span>
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="nav__item">
-                        <Link to="/ontwikkelen" className="nav__link">
+                        <NavLink
+                            activeClassName="nav__link--active"
+                            className="nav__link"
+                            to="/ontwikkelen">
                             <span>Ontwikkelen</span>
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
             </div>
