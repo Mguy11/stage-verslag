@@ -7,7 +7,7 @@ export const Footer = () => {
             <div className="footer__banner">
                 <Grid>
                     <Row center="xs">
-                        <Col xs={6}>
+                        <Col xs={12} lg={6}>
                             <div className="footer__name">Martijn Bankert&nbsp;&copy;&nbsp;All rights Reserved</div>
                         </Col>
                     </Row>

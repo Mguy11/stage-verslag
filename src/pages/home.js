@@ -27,7 +27,7 @@ const Home = () => {
                         />      
                     </Row>
                     <Row style={{margin: '4rem 0'}}>
-                        <Col xs={6}>
+                        <Col xs={12} lg={6}>
                             <div className="content__image">
                                 <figure className="content__image-wrapper">
                                     <img className="image"/>
@@ -54,7 +54,7 @@ const Home = () => {
                             It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
                             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
                         />     
-                        <Col xs={6}>
+                        <Col xs={12} lg={6}>
                             <div className="content__image">
                                 <figure className="content__image-wrapper">
                                     <img className="image"/>
@@ -63,7 +63,7 @@ const Home = () => {
                         </Col>
                     </Row>
                     <Row style={{margin: '4rem 0'}}>
-                        <Col xs={6}>
+                        <Col xs={12} lg={6}>
                             <div className="content__image">
                                 <figure className="content__image-wrapper">
                                     <img className="image"/>
