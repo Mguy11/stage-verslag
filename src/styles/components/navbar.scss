@@ -16,7 +16,24 @@
 
     ul {
         margin: 0;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
     }
+
+    &__icon {
+        //display: none;
+        position: absolute;
+        background: url('../../assets/icons/hamburger-menu-white.svg') no-repeat center center;
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+        
+        @media screen and (max-width: 768px) {
+            display: inline;
+        }
+      }
 
     &__items {
         list-style: none;

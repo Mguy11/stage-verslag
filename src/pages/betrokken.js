@@ -10,7 +10,6 @@ import ContentBlock from '../components/contentBlock';
 import TestimonialBlock from '../components/testimonialBlock';
 
 const Betrokken = () => {
-
     return (
         <div className="betrokken">
             <SmallHeader

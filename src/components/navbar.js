@@ -1,14 +1,24 @@
 import React, { Component } from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
 import { NavLink } from 'react-router-dom';
 import classNames from 'classnames';
 
 import Logo from '../components/parts/logo';
+import { format } from 'path';
+
 
 const NavBarSticky = 'navbar--sticky';
 
 export default class NavBar extends Component {
+    constructor(props) {
+        super(props);
+        this.state = { isToggleOn: false};
+
+        this.handleClick = this.handleClick.bind(this);
+    }
+
     state = {
-        sticky: window.pageYOffset >= 80
+        sticky: window.pageYOffset >= 80,
     }
 
     componentDidMount() {
@@ -36,9 +46,20 @@ export default class NavBar extends Component {
         }
     }
 
-    showSettings(event) {
+    showSettings = (event) => {
         event.preventDefault();
     }
+
+    handleClick() {
+        this.setState(state => ({
+            isToggleOn: !state.isToggleOn
+        }));
+
+        if (!this.state.isToggleOn) {
+           
+        }
+    }
+    
 
     render() {
         //same functionality as a ternary operator
@@ -49,59 +70,64 @@ export default class NavBar extends Component {
 
         return (
             <div className={cx}>
-                <ul className="nav__items">
-                    <li>
+                <Col lg={2}>
                     <Logo />
-                    </li>
-                    <li className="nav__item">
-                        <NavLink 
-                            activeClassName="nav__link--active"
-                            className="nav__link"
-                            to="/introductie"> 
-                            <span>Introductie</span>
-                        </NavLink>
-                    </li>
-                    <li className="nav__item">
-                        <NavLink
-                            activeClassName="nav__link--active"
-                            className="nav__link"
-                            to="/betrokken">
-                            <span>Betrokken</span>
-                        </NavLink>
-                    </li>
-                    <li className="nav__item">
-                        <NavLink 
-                            activeClassName="nav__link--active"
-                            className="nav__link"
-                            to="/ondernemen">
-                            <span>Ondernemen</span>
-                        </NavLink>
-                    </li>
-                    <li className="nav__item">
-                        <NavLink 
-                            activeClassName="nav__link--active"
-                            className="nav__link"
-                            to="/onderzoeken">
-                            <span>Onderzoeken</span>
-                        </NavLink>
-                    </li>
-                    <li className="nav__item">
-                        <NavLink 
-                            activeClassName="nav__link--active"
-                            className="nav__link"
-                            to="/ontwerpen">
-                            <span>Ontwerpen</span>
-                        </NavLink>
-                    </li>
-                    <li className="nav__item">
-                        <NavLink
-                            activeClassName="nav__link--active"
-                            className="nav__link"
-                            to="/ontwikkelen">
-                            <span>Ontwikkelen</span>
-                        </NavLink>
-                    </li>
-                </ul>
+                </Col>
+                <Col lg={8}>
+                    <ul className="nav__items">
+                        <li className="nav__item">
+                            <NavLink 
+                                activeClassName="nav__link--active"
+                                className="nav__link"
+                                to="/introductie"> 
+                                <span>Introductie</span>
+                            </NavLink>
+                        </li>
+                        <li className="nav__item">
+                            <NavLink
+                                activeClassName="nav__link--active"
+                                className="nav__link"
+                                to="/betrokken">
+                                <span>Betrokken</span>
+                            </NavLink>
+                        </li>
+                        <li className="nav__item">
+                            <NavLink 
+                                activeClassName="nav__link--active"
+                                className="nav__link"
+                                to="/ondernemen">
+                                <span>Ondernemen</span>
+                            </NavLink>
+                        </li>
+                        <li className="nav__item">
+                            <NavLink 
+                                activeClassName="nav__link--active"
+                                className="nav__link"
+                                to="/onderzoeken">
+                                <span>Onderzoeken</span>
+                            </NavLink>
+                        </li>
+                        <li className="nav__item">
+                            <NavLink 
+                                activeClassName="nav__link--active"
+                                className="nav__link"
+                                to="/ontwerpen">
+                                <span>Ontwerpen</span>
+                            </NavLink>
+                        </li>
+                        <li className="nav__item">
+                            <NavLink
+                                activeClassName="nav__link--active"
+                                className="nav__link"
+                                to="/ontwikkelen">
+                                <span>Ontwikkelen</span>
+                            </NavLink>
+                        </li>
+                    </ul>
+                </Col>
+                <Col lg={2}>
+                    <a className="nav__icon" onClick={this.handleClick}></a>
+                </Col>
             </div>
         );
     }
