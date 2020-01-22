@@ -6,6 +6,8 @@ import classNames from 'classnames';
 import Logo from '../components/parts/logo';
 import { format } from 'path';
 
+import { Burger } from './burger';
+
 
 const NavBarSticky = 'navbar--sticky';
 
@@ -56,7 +58,7 @@ export default class NavBar extends Component {
         }));
 
         if (!this.state.isToggleOn) {
-           
+           console.log("piep");
         }
     }
     
@@ -126,7 +128,7 @@ export default class NavBar extends Component {
                     </ul>
                 </Col>
                 <Col lg={2}>
-                    <a className="nav__icon" onClick={this.handleClick}></a>
+                    <Burger />
                 </Col>
             </div>
         );
