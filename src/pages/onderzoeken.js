@@ -8,15 +8,17 @@ import  Slider  from '../components/slider';
 import Tabs from '../webparts/_tabs';
 import ContentBlock from '../components/contentBlock';
 import TestimonialBlock from '../components/testimonialBlock';
+import SideNav from '../components/sidenav';
 
 export default class Onderzoeken extends Component {
     render() {
         return (
             <div className="onderzoeken">
+                <SideNav />
+                <NavBar />
                 <SmallHeader
                     title = "Onderzoeken"
                 />
-                <NavBar />
                 <div className="wrap">
                 <Grid>
                     <TestimonialBlock

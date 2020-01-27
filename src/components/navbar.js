@@ -6,8 +6,6 @@ import classNames from 'classnames';
 import Logo from '../components/parts/logo';
 import { format } from 'path';
 
-import { Burger } from './burger';
-
 
 const NavBarSticky = 'navbar--sticky';
 
@@ -128,7 +126,6 @@ export default class NavBar extends Component {
                     </ul>
                 </Col>
                 <Col lg={2}>
-                    <Burger />
                 </Col>
             </div>
         );

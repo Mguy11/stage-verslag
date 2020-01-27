@@ -8,14 +8,16 @@ import  Slider  from '../components/slider';
 import Tabs from '../webparts/_tabs';
 import ContentBlock from '../components/contentBlock';
 import TestimonialBlock from '../components/testimonialBlock';
+import SideNav from '../components/sidenav';
 
 const Ontwerpen = () => {
     return (
         <div className="ontwerpen">
+            <SideNav />
+            <NavBar />
             <SmallHeader
                 title = "Ontwerpen"
             />
-            <NavBar />
             <div className="wrap">
             <Grid>
                 <TestimonialBlock

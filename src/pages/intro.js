@@ -5,6 +5,7 @@ import SmallHeader from '../components/smallheader';
 import NavBar from '../components/navbar';
 import { Footer } from '../webparts/_footer';
 import ContentBlockLarge from '../components/contentBlockLarge';
+import SideNav from '../components/sidenav';
 
 const Introductie = () => {
   
@@ -12,10 +13,12 @@ const Introductie = () => {
 
   return (
     <div className="intro">
+      <SideNav />
+      <NavBar />
       <SmallHeader
         title = "Introductie"
        />
-      <NavBar />
+      
       <div className="wrap">
         <Grid>
             <Row style={{padding: '4rem'}}>

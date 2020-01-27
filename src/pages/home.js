@@ -7,15 +7,18 @@ import  Slider  from '../components/slider';
 import ContentBlock from '../components/contentBlock';
 import ContentBlockLarge from '../components/contentBlockLarge';
 import NavBar from '../components/navbar';
+import SideNav from '../components/sidenav';
+import { Navbar } from 'react-bootstrap';
 
 
 const Home = () => {
     return (
-        <div className="home particles-js">
+        <div className="home">
+            <SideNav />
+            <NavBar />
             <LargeHeader 
                 title = "Stageverslag - Martijn Bankert"
             />
-            <NavBar />
             <div className="wrap">
                 <Grid style={{marginTop: '2rem'}}>
                     <Row>
@@ -96,7 +99,7 @@ const Home = () => {
                             <Slider />
                         </Col>
                     </Row>
->                </Grid>
+                </Grid>
             </div>
             <Footer />
         </div>

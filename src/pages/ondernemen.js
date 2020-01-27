@@ -9,14 +9,16 @@ import Tabs from '../webparts/_tabs';
 import ContentBlock from '../components/contentBlock';
 import TestimonialBlock from '../components/testimonialBlock';
 import ContentBlockLarge from '../components/contentBlockLarge';
+import SideNav from '../components/sidenav';
 
 const Ondernemen = () => {
     return (
         <div className="ondernemen">
+            <SideNav />
+            <NavBar />
             <SmallHeader 
                 title = "Ondernemen"
             />
-            <NavBar />
             <div className="wrap">
             <Grid>
                 <TestimonialBlock
