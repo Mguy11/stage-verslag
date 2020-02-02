@@ -18,10 +18,6 @@ export default class TestimonialBlock extends Component {
                         <span className="testimonialblock__subtitle">{this.props.subtitle2}</span>
                         <p className="testimonialblock__body">{this.props.body2}</p>
                     </div>
-                    <div className="testimonialblock__content">       
-                        <span className="testimonialblock__subtitle">{this.props.subtitle3}</span>
-                        <p className="testimonialblock__body">{this.props.body3}</p>
-                    </div>
                 </div>
             </Col>
         );

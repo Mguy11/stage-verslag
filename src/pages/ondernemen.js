@@ -22,14 +22,10 @@ const Ondernemen = () => {
             <div className="wrap">
                 <Grid>
                     <TestimonialBlock
-                        subtitle1="Ondernemende houding: "
-                        body1="De CMGT'er heeft een actueel beeld van de stand van zaken in de maatschappij op het gebied van technologie. 
-                        Dit beeld wordt gebruikt om oplossingen te ontwikkelen die er toe doen voor de klant of het stagebedrijf, en deze uit zichzelf aan te dragen."
-                        subtitle2="Ondernemende vaardigheden: "
-                        body2="De CMGT'er houdt zijn kennis over actuele ontwikkelingen bij en weet zijn bronnen daarvoor op waarde te schatten. Hierdoor is de CMGT'er in staat kansen te zien waar de klant of het 
-                        stagebedrijf met behulp van technologie waarde kan creëren. Onder begeleiding kan hij hier een analyse met een trendrapportage en verdienmodellen van maken."
-                        subtitle3="Projectmatig werken: "
-                        body3="De CMGT'er is in staat om zowel individueel als in teamverband iteratief te werken aan de ontwikkeling van producten. De CMGT'er kan hierin diverse rollen aannemen, en communiceert tijdig en duidelijk met belanghebbenden."
+                        subtitle1="Ondernemende houding en vaardigheden: "
+                        body1="Ik kijk verder dan wat me gevraagd wordt. Ik bedenk nieuwe oplossingen, en vergelijk met bestaande oplossingen en kom uit mezelf met adviezen om waarde te creëren voor de klant of het stagebedrijf."
+                        subtitle2="Projectmatig werken en communiceren: "
+                        body2="Ik ben in staat om zowel individueel als in teamverband te werken om zo deadlines en afspraken na te komen. Ik kan hierin diverse rollen aannemen, vraag tijdig hulp en communiceer duidelijk met belanghebbenden."
                     />
                     <Tabs style={{padding: '4rem'}}>
                         <div label="Dura Vermeer">

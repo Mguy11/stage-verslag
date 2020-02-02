@@ -23,8 +23,7 @@ const Betrokken = () => {
                 <Grid>
                     <TestimonialBlock
                         subtitle1="Lerend vermogen: "
-                        body1="Ik ben kritisch en streef ernaar het beste in mezelf en anderen naar boven te halen. 
-                        Ik reflecteer structureel op eigen ervaringen en feedback vanuit het stagebedrijf en trek daaruit lessen voor de toekomst."
+                        body1=" Ik ben kritisch en streef ernaar het beste in mezelf en anderen naar boven te halen. Ik reflecteer structureel op eigen ervaringen en feedback vanuit het stagebedrijf en trek daaruit lessen voor de toekomst."
                         subtitle2="Maatschappelijke verantwoordelijkheid: "
                         body2="Ik verdiep me naast de directe gebruikers ook in andere stakeholders en maatschappelijke ontwikkelingen. Ik kan maatschappelijke en ethische implicaties van producten waaraan ik meewerk benoemen, en er een onderbouwde mening over vormen."
                     />
