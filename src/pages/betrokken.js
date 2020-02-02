@@ -88,11 +88,11 @@ const Betrokken = () => {
                                 </Col>
                             </Row>
                         </div>
-                        <div label="4Wind">
+                        <div label="4WIND">
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="#">Wat is het 4Wind project?</a>
+                                        <a href="#">Wat is het 4WIND project?</a>
                                     </div>
                                 </Col>
                             </Row>
@@ -100,7 +100,7 @@ const Betrokken = () => {
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
-                                    body = "Dit was mijn tweede project, een website voor een kitesurfschool. Dit project had een hele andere insteek dan Dura Vermeer. De huidige 4Wind website werkte nog met een oud CMS, was niet echt responsive en bevatte verouderde code. Het doel was dus de website volledig na te bouwen, het nieuwe CMS op te zetten en proberen alle oude “problemen” te verhelpen."
+                                    body = "Dit was mijn tweede project, een website voor een kitesurfschool. Dit project had een hele andere insteek dan Dura Vermeer. De huidige 4WIND website werkte nog met een oud CMS, was niet echt responsive en bevatte verouderde code. Het doel was dus de website volledig na te bouwen, het nieuwe CMS op te zetten en proberen alle oude “problemen” te verhelpen."
                                 />
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
@@ -164,7 +164,7 @@ const Betrokken = () => {
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
-                                    body = "Als laatste heb ik geleerd wat voor maatschappelijke verantwoordelijkheid er aan echte projecten hangt en wat de verschillen zijn tussen grote of kleine projecten. Het Dura Vermeer project moest heel anders benaderd worden dan het 4Wind project. Ik mocht niks laten zien of delen over het Dura Vermeer project terwijl het 4Wind project veel opener was."
+                                    body = "Als laatste heb ik geleerd wat voor maatschappelijke verantwoordelijkheid er aan echte projecten hangt en wat de verschillen zijn tussen grote of kleine projecten. Het Dura Vermeer project moest heel anders benaderd worden dan het 4WIND project. Ik mocht niks laten zien of delen over het Dura Vermeer project terwijl het 4WIND project veel opener was."
                                 />
                             </Row>
                         </div>

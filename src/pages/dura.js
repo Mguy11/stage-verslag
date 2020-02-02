@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 import SmallHeader from '../components/smallheader';
@@ -24,6 +24,17 @@ const DuraVermeer = () => {
                     body = "Het Dura Vermeer project was een opdracht vanuit constructiebedrijf Dura Vermeer, om een platform op te zetten voor de projecten die ze doen. Het doel van dit project is snel websites op te kunnen zetten.
                             De websites zullen allemaal gebruik gaan maken van een basis design. Voor de websites worden blokken ontwikkeld waarmee de webpagina’s gebouwd kunnen worden. Het design van de blokken staat vast, maar de kleuren en de content kunnen wel aangepast worden. Ook is het de bedoeling het CMS zo overzichtelijk mogelijk in te richten, omdat de content door Dura Vermeer zelf ingevuld zal worden."
                   />
+                </Row>
+                <Row>
+                    <Col xs={12}>
+                        <div className="contentblock">
+                          <span>Kijk hier voor de websites die gemaakt zijn met het nieuwe platform:</span>
+                          <ul>
+                            <li style={{listStyleType: "none"}}><a href="https://elementshaarlem.nl/">Elements Haarlem</a></li>
+                            <li style={{listStyleType: "none"}}><a href="https://nieuwbouw-defruitmeester.nl/">De Fruitmeester</a></li>
+                          </ul>
+                        </div>
+                    </Col>
                 </Row>
               </Grid>
           </div>

@@ -84,11 +84,11 @@ const Ondernemen = () => {
                                 />
                             </Row>
                         </div>
-                        <div label="4Wind">
+                        <div label="4WIND">
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="#">Wat is het 4Wind project?</a>
+                                        <a href="#">Wat is het 4WIND project?</a>
                                     </div>
                                 </Col>
                             </Row>
@@ -96,12 +96,12 @@ const Ondernemen = () => {
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
-                                    body = "Het 4Wind project was over het algemeen hetzelfde als het Dura Vermeer project. We hebben alles netjes en gestructureerd opgezet qua front- en backend. Ook het CMS was ook op dezelfde manier ingericht. Alles bestond wederom uit blokken en daarmee hebben we de website bijna identiek kunnen nabouwen. Toch zaten in de nieuwe website een aantal nieuwe functionaliteiten en aanpassingen die samen voor een uitdaging zorgde."
+                                    body = "Het 4WIND project was over het algemeen hetzelfde als het Dura Vermeer project. We hebben alles netjes en gestructureerd opgezet qua front- en backend. Ook het CMS was ook op dezelfde manier ingericht. Alles bestond wederom uit blokken en daarmee hebben we de website bijna identiek kunnen nabouwen. Toch zaten in de nieuwe website een aantal nieuwe functionaliteiten en aanpassingen die samen voor een uitdaging zorgde."
                                 />
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
-                                    body = "Ook voor 4Wind heb ik de hover effecten op foto’s en blogberichten toegevoegd. Dit keer zijn ze alleen nog wat uitgebreider. Bij Dura Vermeer kregen ze de primaire kleur mee uit het CMS. Hier krijgen bijvoorbeeld de blogberichten de hover kleur mee van het bericht zelf. Hier zat een heel stuk code achter waarvan ik eerst niet eens wist dat het zo kon. Om dit zo te laten werken heb ik in SCSS een for-loop gebouwd met kleuren. Deze mogelijkheid zit in SCSS/SASS, maar dat had ik nog nooit gebruikt. Hiervoor heb ik eerst onderzoek gedaan naar de mogelijkheden binnen SCSS en met een beetje hulp heb ik het toch voor elkaar gekregen."
+                                    body = "Ook voor 4WIND heb ik de hover effecten op foto’s en blogberichten toegevoegd. Dit keer zijn ze alleen nog wat uitgebreider. Bij Dura Vermeer kregen ze de primaire kleur mee uit het CMS. Hier krijgen bijvoorbeeld de blogberichten de hover kleur mee van het bericht zelf. Hier zat een heel stuk code achter waarvan ik eerst niet eens wist dat het zo kon. Om dit zo te laten werken heb ik in SCSS een for-loop gebouwd met kleuren. Deze mogelijkheid zit in SCSS/SASS, maar dat had ik nog nooit gebruikt. Hiervoor heb ik eerst onderzoek gedaan naar de mogelijkheden binnen SCSS en met een beetje hulp heb ik het toch voor elkaar gekregen."
                                 />
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
@@ -111,13 +111,13 @@ const Ondernemen = () => {
                                 <Col xs={12}>
                                     <div>
                                         <span className="contentblock">Lees hier de uitgebreide informatie over de navigatie: </span>
-                                        <a href="#">Ontwikkelen - 4Wind - Navigatie</a>
+                                        <a href="#">Ontwikkelen - 4WIND - Navigatie</a>
                                     </div>
                                 </Col>
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
-                                    body = "Op het gebied van initiatief nemen en klantgericht werken heb ik voor 4Wind ook mijn best gedaan. Er moest voor de oplevering content gevuld worden, zodat de klant een goede indruk zou krijgen hoe zijn nieuwe website er uit zou kunnen zien. Deze content moest van de oude website gehaald worden en vervolgens op dezelfde manier op de nieuwe website komen. Die taak heb ik op me genomen, want ik wist ook hoe alle blokken in elkaar zaten. Tijdens het vullen kwam ik ook hier en daar bugs tegen die ik vrijwel altijd direct heb opgelost.Voor het Image-content blok (Een foto links en tekst rechts of andersom) was een bepaalde opbouw nodig die we niet hadden voorzien.
+                                    body = "Op het gebied van initiatief nemen en klantgericht werken heb ik voor 4WIND ook mijn best gedaan. Er moest voor de oplevering content gevuld worden, zodat de klant een goede indruk zou krijgen hoe zijn nieuwe website er uit zou kunnen zien. Deze content moest van de oude website gehaald worden en vervolgens op dezelfde manier op de nieuwe website komen. Die taak heb ik op me genomen, want ik wist ook hoe alle blokken in elkaar zaten. Tijdens het vullen kwam ik ook hier en daar bugs tegen die ik vrijwel altijd direct heb opgelost.Voor het Image-content blok (Een foto links en tekst rechts of andersom) was een bepaalde opbouw nodig die we niet hadden voorzien.
                                             Er zat tussen de content een knop die naar de detailpagina zou leiden. Het probleem zat hem dan ook in de knop die in de lopende tekst viel. Ik heb toen eerst geprobeerd het probleem op te lossen met de blokken die we al hadden via de teksteditor in het CMS. Dit bleek helaas niet mogelijk dus moest ik een andere oplossing bedenken. Na een beetje onderzoek kwam ik er achter dat je custom elementen kan maken voor in de teksteditor van het CMS. Dat was precies wat ik nodig had en dus heb ik het element zelf gemaakt. Nu kon je in de teksteditor in het CMS een knop aanmaken die in de lopende tekst geplaatst kon worden."
                                 />
                                 <ContentBlockLarge
@@ -165,7 +165,7 @@ const Ondernemen = () => {
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = "Samenwerking & communicatie"
-                                    body = "De samenwerking binnen dit project liep iets anders dan bij de Dura Vermeer en 4Wind projecten. We hadden wel dagelijkse Stand Up’s, maar daar bleef het ook bij. Verder had iedereen zijn eigen taak en die moest binnen de gegeven tijd zijn afgerond. Er waren een aantal deadlines opgesteld die gehaald moesten worden. Eén daarvan was het overzetten van de data naar de kennisbank, deze heb ik op mij genomen. Dit was belangrijk, want door dit te doen kon een groot deel van de accounts voor het oude programma worden opgezegd en dat scheelt weer geld voor het bedrijf."
+                                    body = "De samenwerking binnen dit project liep iets anders dan bij de Dura Vermeer en 4WIND projecten. We hadden wel dagelijkse Stand Up’s, maar daar bleef het ook bij. Verder had iedereen zijn eigen taak en die moest binnen de gegeven tijd zijn afgerond. Er waren een aantal deadlines opgesteld die gehaald moesten worden. Eén daarvan was het overzetten van de data naar de kennisbank, deze heb ik op mij genomen. Dit was belangrijk, want door dit te doen kon een groot deel van de accounts voor het oude programma worden opgezegd en dat scheelt weer geld voor het bedrijf."
                                 />
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"

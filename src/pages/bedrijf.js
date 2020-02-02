@@ -21,11 +21,27 @@ const Bedrijf = () => {
                   <ContentBlockLarge
                     className = "contentblock contentblock--alinea"
                     title = ""
-                    body = "Voor het Dura Vermeer project heb ik in eerste instantie veel moeten uitzoeken. Vooral omdat dit mijn eerste project was waar ik aan mee ging werken en ik nog geen idee had wat voor standaarden ze hier gebruikten en hoe het nieuwe CMS werkte. De eerste dagen ben ik vooral bezig geweest met rondklikken, vragen stellen en notities maken, zodat ik een basis had om op door te bouwen. Het CMS wat we gingen gebruiken heet Umbraco.
-                            Het is een redelijk uitgebreid, maar vooral gebruiksvriendelijk CMS. Aangezien de mensen van Dura Vermeer met het CMS moet gaan werken wilden we alles zo netjes en compleet mogelijk opleveren. Het is mogelijk om omschrijvingen toe te voegen bij alle invoervelden in het CMS. Dit had ik allemaal netjes gedaan in het Nederlands, maar toen kwam het punt van meertaligheid in het CMS ter sprake. Het is dus mogelijk om de taal van het CMS per gebruiker in te stellen, wat bijvoorbeeld handig is voor mensen die de Nederlandse taal niet beheersen.
-                            Het CMS vertaald dan alle invoerveld kopjes/titels, maar de beschrijvingen blijven Nederlands. Ik bracht toen naar voren of het niet mogelijk was die beschrijvingen ook te vertalen. Niemand wist of dat überhaupt mogelijk was, dus ben ik wat onderzoek gaan doen naar de mogelijkheden. Ook op internet waren er geen duidelijke antwoorden te vinden of het mogelijk was dit te doen. Uiteindelijk kreeg ik vanuit DotControl groen licht om contact op te nemen met Umbraco Support. Daar heb ik dezelfde vraag gesteld of het mogelijk was om vertalingen toe te voegen bij omschrijvingen van velden in het CMS.
-                            Tot mijn verbazing kreeg ik daar het antwoord op dat het nog niet mogelijk was en de vraag of ik dat eventueel zelf wilde ontwikkelen voor het CMS. Helaas was daar geen tijd en budget voor binnen dit project, maar ik heb in ieder geval alles geprobeerd om deze extra functie toe te voegen."
+                    body = "DotControl is “data-driven creative agency”. We hebben 4 kantoren op de volgende locaties: Amsterdam (net geopend), Rotterdam, Heerlen en in Curaçao. Hier werken verschillende disciplines nauw samen om producten neer te zetten, waarmee de doelstellingen van klanten elke dag weer overtroffen worden.
+                            DotControl werkt samen met het dochterbedrijf RockBoost, dit bedrijf is gespecialiseerd in Growth Hacking. De combinatie van deze bedrijven zorgt ervoor dat er vrijwel niets uitbesteed hoeft te worden. Samen werken ze voor klanten zoals: National Geographic, Eredivisie, Havi, Talpa, Nederlandse Loterij en VARO Energy."
                   />
+                </Row>
+                <Row>
+                    <Col xs={12}>
+                        <div className="contentblock">
+                          <span>De websites van beide bedrijven zijn hier te vinden: </span>
+                          <ul>
+                            <li style={{listStyleType: "none"}}><a href="https://dotcontrol.com/">DotControl</a></li>
+                            <li style={{listStyleType: "none"}}><a href="https://rockboost.com/">RockBoost</a></li>
+                          </ul>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs={12}>
+                      <div className="colofon">
+                          
+                      </div>
+                    </Col>
                 </Row>
               </Grid>
           </div>

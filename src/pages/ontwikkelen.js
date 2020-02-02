@@ -47,7 +47,7 @@ const Ontwikkelen = () => {
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = "Responsiveness"
-                                    body = "Tijdens zowel het Dura Vermeer als het 4Wind project ben ik bezig geweest met responsiveness. Responsiveness is tegenwoordig een heel belangrijk onderdeel van een website of webapplicatie. Met responsive webdesign kun je een website toegankelijk maken op alle schermgrootte. Hiervoor gebruik je in je CSS media queries. Voor ik stage ging lopen had ik hier nog niet van gehoord. Ik wist wel dat je een website responsive kon maken, maar niet hoe.
+                                    body = "Tijdens zowel het Dura Vermeer als het 4WIND project ben ik bezig geweest met responsiveness. Responsiveness is tegenwoordig een heel belangrijk onderdeel van een website of webapplicatie. Met responsive webdesign kun je een website toegankelijk maken op alle schermgrootte. Hiervoor gebruik je in je CSS media queries. Voor ik stage ging lopen had ik hier nog niet van gehoord. Ik wist wel dat je een website responsive kon maken, maar niet hoe.
                                             Daarom kreeg ik tijdens het bouwen van mijn eerste blok een mini speed course responsive design. Op dat moment ging er een hele wereld voor mij open. Ik realiseerde me toen vooral dat je een website eigenlijk meerdere malen aan het bouwen bent, elke keer voor een andere reeks aan schermgroottes. Ik heb dit vanaf dat moment overal toegepast. Ik ben zelfs voor deze stage website bezig geweest hem responsive te maken."
                                 />
                                 <ContentBlockLarge
@@ -114,11 +114,11 @@ const Ontwikkelen = () => {
                                 />
                             </Row>
                         </div>
-                        <div label="4Wind">
+                        <div label="4WIND">
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="#">Wat is het 4Wind project?</a>
+                                        <a href="#">Wat is het 4WIND project?</a>
                                     </div>
                                 </Col>
                             </Row>
@@ -126,7 +126,7 @@ const Ontwikkelen = () => {
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
-                                    body = "De navigatie van de 4Wind website heeft een aantal functies ingebouwd zitten die niet gebruikelijk zijn. Er werd tijdens het bugfixen vastgesteld dat de navigatie nog niet de functionaliteit had die hij zou moeten hebben. De opdracht om dat op te lossen werd bij mij neergelegd. Ik had continu gezegd dat ik klaar was voor meer uitdaging en die kreeg ik nu. Voor ik überhaupt kon beginnen met bouwen moest ik eerst de code doornemen om te kijken wat er fout ging en om te checken wat er nog miste.
+                                    body = "De navigatie van de 4WIND website heeft een aantal functies ingebouwd zitten die niet gebruikelijk zijn. Er werd tijdens het bugfixen vastgesteld dat de navigatie nog niet de functionaliteit had die hij zou moeten hebben. De opdracht om dat op te lossen werd bij mij neergelegd. Ik had continu gezegd dat ik klaar was voor meer uitdaging en die kreeg ik nu. Voor ik überhaupt kon beginnen met bouwen moest ik eerst de code doornemen om te kijken wat er fout ging en om te checken wat er nog miste.
                                             De conclusie was al snel dat er niet gedacht was aan de header onder de navigatie en dat het submenu moest openklappen in combinatie met een active state."
                                 />
                                 <ContentBlockLarge
