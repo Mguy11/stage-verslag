@@ -1,0 +1,53 @@
+.overig {
+    $self: &;
+
+    &__pageslist {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    &__list-item {
+        list-style-type: none;
+        position: relative;
+        display: flex;
+        
+        &::before {
+            content: '';
+            position: block;
+            display: flex;
+            align-self: center;
+            height: 0.5rem;
+            width: 1.6rem;
+            background-color: #ffffff;
+            margin-right: 2rem;
+        }
+    }
+    
+    &__link {
+        position: relative;
+        color: #ffffff;
+        font-size: 4rem;
+        line-height: 4.2rem;
+        font-weight: 700;
+        text-decoration: none;
+        margin-bottom: 1rem;
+        transition: color 150ms ease-in-out;
+
+        &--text {
+            font-size: 1.4rem;
+        }
+
+        &:hover {
+            color: #313345;
+            text-decoration: none;
+
+            #{$self}__list-item {
+                &::before {
+                    content: '';
+                    background-color: #313345;
+                }
+            }
+
+        }
+    }
+}

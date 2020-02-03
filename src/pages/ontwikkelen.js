@@ -29,21 +29,21 @@ const Ontwikkelen = () => {
                         body2="Ik ben in staat iteratief te ontwikkelen waarbij analyse van een iteratie tot verbeteringen leidt in de volgende iteratie.
                             Hierbij heb ik functionele testen opgezet, die vooraf door de klant of het stagebedrijf zijn goedgekeurd, om de correcte werking te garanderen. Het geheel lever ik op met het oog op doorontwikkeling."
                     />
-                    <ContentBlockLarge
-                        className = "contentblock contentblock--alinea"
-                        title = ""
-                        body = "In mijn eerste week kreeg ik een introductie in alle tools, werkwijzen en processen die ik nodig zou hebben tijdens mijn stageperiode. Een aantal onderdelen waren niet vreemd voor mij. Zo had ik al ervaring met Git, Sourcetree, SCRUM en Visual Studio (Code). Hierdoor was het opstarten wat makkelijker voor me en kon ik sneller aan de slag. 
-                                Een programma waar ik nog niet bekend mee was, was Azure DevOps. Azure DevOps is een verzameling van tools die gebruikt worden voor development. Hier gebruikte ik vooral de scrumboards, reposetories (voor alle code) en de pipelines. Ik vond het fijn werken, omdat je nu alles op een plek had. Je kon makkelijk tasks koppelen aan branches of als een Pull Request goedgekeurd was werd direct de build pipeline gestart.
-                                Deze koppeling zorgde samen voor een soepele werkervaring."
-                    />
-                    <ContentBlockLarge
-                        className = "contentblock contentblock--alinea"
-                        title = ""
-                        body = "In Azure DevOps worden ook alle Pull Requests behandeld. Hiervoor is er ook een proces opgezet waarbij andere developers jouw code eerst nog nakijken voordat jij het kan mergen met de master branch. Het is goed dat dit proces er in zit, want op deze manier is de kans dat foutieve code doorgevoerd wordt erg klein. De volgende stap is om dit te integreren in een testplan, waardoor het allemaal automatisch nagekeken zou kunnen worden."
-                    />
                     <Tabs style={{padding: '4rem'}}>
                         <div label="Algemeen">
                             <Row>
+                                <ContentBlockLarge
+                                    className = "contentblock contentblock--alinea"
+                                    title = ""
+                                    body = "In mijn eerste week kreeg ik een introductie in alle tools, werkwijzen en processen die ik nodig zou hebben tijdens mijn stageperiode. Een aantal onderdelen waren niet vreemd voor mij. Zo had ik al ervaring met Git, Sourcetree, SCRUM en Visual Studio (Code). Hierdoor was het opstarten wat makkelijker voor me en kon ik sneller aan de slag. 
+                                            Een programma waar ik nog niet bekend mee was, was Azure DevOps. Azure DevOps is een verzameling van tools die gebruikt worden voor development. Hier gebruikte ik vooral de scrumboards, reposetories (voor alle code) en de pipelines. Ik vond het fijn werken, omdat je nu alles op een plek had. Je kon makkelijk tasks koppelen aan branches of als een Pull Request goedgekeurd was werd direct de build pipeline gestart.
+                                            Deze koppeling zorgde samen voor een soepele werkervaring."
+                                />
+                                <ContentBlockLarge
+                                    className = "contentblock contentblock--alinea"
+                                    title = ""
+                                    body = "In Azure DevOps worden ook alle Pull Requests behandeld. Hiervoor is er ook een proces opgezet waarbij andere developers jouw code eerst nog nakijken voordat jij het kan mergen met de master branch. Het is goed dat dit proces er in zit, want op deze manier is de kans dat foutieve code doorgevoerd wordt erg klein. De volgende stap is om dit te integreren in een testplan, waardoor het allemaal automatisch nagekeken zou kunnen worden."
+                                />
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = "Responsiveness"
@@ -66,7 +66,7 @@ const Ontwikkelen = () => {
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="#">Wat is het Dura Vermeer project?</a>
+                                        <a href="/dura-vermeer" className="overig__link overig__link--text">Wat is het Dura Vermeer project?</a>
                                     </div>
                                 </Col>
                             </Row>
@@ -94,7 +94,7 @@ const Ontwikkelen = () => {
                                 <Col xs={12}>
                                     <div className="contentblock">
                                         <span>Lees hier alles over het Google Maps Blok</span>
-                                        <a href="#"> Ondernemen - Google Maps</a>
+                                        <a href="/ondernemen"> Ondernemen - Google Maps</a>
                                     </div>
                                 </Col>
                             </Row>
@@ -118,7 +118,7 @@ const Ontwikkelen = () => {
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="#">Wat is het 4WIND project?</a>
+                                        <a href="/4WIND">Wat is het 4WIND project?</a>
                                     </div>
                                 </Col>
                             </Row>

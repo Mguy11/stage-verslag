@@ -3,12 +3,13 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from "./pages/home";
-import Introductie from './pages/intro';
+import Overig from "./pages/overig";
 import Betrokken from './pages/betrokken';
 import Ondernemen from './pages/ondernemen';
 import Onderzoeken from './pages/onderzoeken';
 import Ontwerpen from './pages/ontwerpen';
 import Ontwikkelen from './pages/ontwikkelen';
+import Introductie from './pages/intro';
 import DuraVermeer from './pages/dura';
 import FourWind from './pages/4wind';
 import Bedrijf from './pages/bedrijf';
@@ -29,14 +30,15 @@ function App() {
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route path="/introductie" exact component={Introductie} />
+                <Route exact path="/overig" component={Overig} />
                 <Route path="/betrokken" exact component={Betrokken} />
                 <Route path="/ondernemen" exact component={Ondernemen} />
                 <Route path="/onderzoeken" exact component={Onderzoeken} />
                 <Route path="/ontwerpen" exact component={Ontwerpen} />
                 <Route path="/ontwikkelen" exact component={Ontwikkelen} />
+                <Route path="/introductie" exact component={Introductie} />
                 <Route path="/dura-vermeer" exact component={DuraVermeer} />
-                <Route path="/4wind" exact component={FourWind} />
+                <Route path="/4WIND" exact component={FourWind} />
                 <Route path="/bedrijf" exact component={Bedrijf} />
                 <Route path="/checkins" exact component={Checkins} />
                 <Route path="/reflectie" exact component={Reflectie} />

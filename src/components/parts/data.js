@@ -1,5 +1,5 @@
 export default (content = "Slide") => {
-    const colors = [
+    /*const colors = [
       "#4a9eda",
       "#6872e0",
       "#9966e0",
@@ -12,9 +12,9 @@ export default (content = "Slide") => {
       "#54da48",
       "#46da84",
       "#44d9cd"
-    ];
+    ];*/
 
-    const images = [
+    const colors = [
         "../../assets/images/hands.jpg",
         "../../assets/images/kleurtjes.jpg",
     ]
@@ -24,4 +24,10 @@ export default (content = "Slide") => {
       content: `${content} #${idx + 1}`,
       color
     }));
+
+    /*return images.map((image, idx) => ({
+      idx: idx + 1,
+      icontent: `${content} #${idx + 1}`,
+      image
+    }));*/
   };

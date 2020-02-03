@@ -76,14 +76,6 @@ export default class NavBar extends Component {
                 <Col lg={8}>
                     <ul className="nav__items">
                         <li className="nav__item">
-                            <NavLink 
-                                activeClassName="nav__link--active"
-                                className="nav__link"
-                                to="/introductie"> 
-                                <span>Introductie</span>
-                            </NavLink>
-                        </li>
-                        <li className="nav__item">
                             <NavLink
                                 activeClassName="nav__link--active"
                                 className="nav__link"
@@ -121,6 +113,14 @@ export default class NavBar extends Component {
                                 className="nav__link"
                                 to="/ontwikkelen">
                                 <span>Ontwikkelen</span>
+                            </NavLink>
+                        </li>
+                        <li className="nav__item">
+                            <NavLink 
+                                activeClassName="nav__link--active"
+                                className="nav__link"
+                                to="/overig"> 
+                                <span>Overig</span>
                             </NavLink>
                         </li>
                     </ul>

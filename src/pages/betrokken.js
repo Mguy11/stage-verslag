@@ -40,17 +40,12 @@ const Betrokken = () => {
                                             Ik merkte al vanaf de 3e week dat er een verschil ontstond qua werk niveau voor mezelf. Ik kreeg minder comments op Pull Requests (PR’s), ik hoefde minder te vragen en dat resulteerde allemaal in een betere score tijdens mijn Check-In. Dit gaf mij het gevoel dat ik op de goede weg zat en ook meer motivatie om nog beter mijn best te doen."
                                 />
                             </Row>
-                            <Row>
-                        <Col xs={12}>
-                            <Slider />
-                        </Col>
-                    </Row>
                         </div>
                         <div label="Dura Vermeer">
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="#">Wat is het Dura Vermeer project?</a>
+                                        <a href="/dura-vermeer">Wat is het Dura Vermeer project?</a>
                                     </div>
                                 </Col>
                             </Row>
@@ -92,7 +87,7 @@ const Betrokken = () => {
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="#">Wat is het 4WIND project?</a>
+                                        <a href="/4WIND">Wat is het 4WIND project?</a>
                                     </div>
                                 </Col>
                             </Row>
@@ -124,7 +119,7 @@ const Betrokken = () => {
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="#">Wat is Toolsoup project?</a>
+                                        <a href="/toolsoup">Wat is Toolsoup project?</a>
                                     </div>
                                 </Col>
                             </Row>

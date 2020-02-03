@@ -21,7 +21,13 @@ export default class Onderzoeken extends Component {
                 />
                 <div className="wrap">
                 <Grid>
-                    
+                    <Row>
+                        <Col xs={12}>
+                            <div style={{textAlign: 'center'}}>
+                                <a href="../assets/documents/Onderzoeksverslag-SEO-SPA-versie-2.pdf" download>Download hier mijn onderzoek als PDF</a>
+                            </div>
+                        </Col>
+                    </Row>
                 </Grid>
                 </div>
                 <Footer />

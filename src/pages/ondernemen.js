@@ -32,7 +32,7 @@ const Ondernemen = () => {
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="#">Wat is het Dura Vermeer project?</a>
+                                        <a href="/dura-vermeer">Wat is het Dura Vermeer project?</a>
                                     </div>
                                 </Col>
                             </Row>
@@ -70,6 +70,23 @@ const Ondernemen = () => {
                                             omdat mijn TypeScript skills niet zo goed waren en er was heel erg weinig documentatie te vinden over Google Maps in Typescript. Na enige tijd heb ik samen met een andere developer toch het Block afgemaakt, maar toen kwam het tweede probleem, namelijk het doorgeven van data uit Umbraco naar RazorScript documenten (C#) en die data vervolgens doorgeven naar TypeScript. Hiervoor heb ik een hoop documentatie doorgenomen van zowel Typescript als C#, maar het was mij niet duidelijk wat ik moest doen. Deze taak is toen overgedragen aan iemand die meer kennis van zaken had en die heeft het dan ook voor ons geregeld.
                                             Later in het project kwam er nog eenzelfde situatie voor waar we op dezelfde manier de data moesten doorgeven, dit heb ik toen wel zelf opgelost."
                                 />
+                                 <ContentBlockLarge
+                                    className = "contentblock contentblock--alinea"
+                                    title = ""
+                                    body = "Ik heb ook nog een stukje service verricht dit blok. De klant had feedback gegeven dat het niet helemaal duidelijk was hoe ze het Google Maps Block moesten aanmaken. Om dat te verduidelijken heb ik toen een handleiding gemaakt waarin ik stap voor stap uitleg hoe ze dat moeten doen."
+                                />
+                            </Row>
+                            <Row>
+                                <Col xs={12}>
+                                    <div>
+                                        <a className="" href="../assets/documents/Manual_Google_Maps_Block.docx" download>
+                                            
+                                            <span>Download hier de handleiding</span>
+                                        </a>
+                                    </div>
+                                </Col>
+                            </Row>
+                            <Row>
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = "Samenwerking en communicatie"
@@ -88,7 +105,7 @@ const Ondernemen = () => {
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="#">Wat is het 4WIND project?</a>
+                                        <a href="/4WIND">Wat is het 4WIND project?</a>
                                     </div>
                                 </Col>
                             </Row>
@@ -111,7 +128,7 @@ const Ondernemen = () => {
                                 <Col xs={12}>
                                     <div>
                                         <span className="contentblock">Lees hier de uitgebreide informatie over de navigatie: </span>
-                                        <a href="#">Ontwikkelen - 4WIND - Navigatie</a>
+                                        <a href="/ontwikkelen">Ontwikkelen - 4WIND - Navigatie</a>
                                     </div>
                                 </Col>
                                 <ContentBlockLarge
@@ -146,7 +163,7 @@ const Ondernemen = () => {
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="#">Wat is het Toolsoup project?</a>
+                                        <a href="/toolsoup">Wat is het Toolsoup project?</a>
                                     </div>
                                 </Col>
                             </Row>
@@ -185,10 +202,10 @@ const Ondernemen = () => {
                                 <Col xs={12}>
                                     <div>
                                         <span className="contentblock">Lees hier mijn introductie hoe ik bij DotControl gekomen ben: </span>
-                                        <a href="#">Introductie DotControl</a>
+                                        <a href="/introductie">Introductie DotControl</a>
                                         <br/>
                                         <span className="contentblock">Lees hier mijn onderzoek: </span>
-                                        <a href="#">Onderzoek</a>
+                                        <a href="/onderzoek">Onderzoek</a>
                                     </div>
                                 </Col> 
                             </Row>

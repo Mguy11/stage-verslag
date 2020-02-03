@@ -13,9 +13,13 @@
 @import './webparts/content.scss';
 @import './webparts/footer.scss';
 @import './webparts/tab.scss';
+@import './webparts/overig.scss';
 
 //Variables
-@import './vars/_colors';
+@import './vars/_colors.scss';
+
+//Icons
+@import './icons/_icon.scss';
 
 //Reset
 @import './vars/_resets';
