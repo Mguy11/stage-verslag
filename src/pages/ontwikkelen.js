@@ -122,7 +122,7 @@ const Ontwikkelen = () => {
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="/4WIND">Wat is het 4WIND project?</a>
+                                        <a href="/4WIND" className="overig__link overig__link--text">Wat is het 4WIND project?</a>
                                     </div>
                                 </Col>
                             </Row>

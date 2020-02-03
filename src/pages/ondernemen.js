@@ -32,7 +32,7 @@ const Ondernemen = () => {
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="/dura-vermeer">Wat is het Dura Vermeer project?</a>
+                                        <a href="/dura-vermeer" className="overig__link overig__link--text">Wat is het Dura Vermeer project?</a>
                                     </div>
                                 </Col>
                             </Row>
@@ -105,7 +105,7 @@ const Ondernemen = () => {
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="/4WIND">Wat is het 4WIND project?</a>
+                                        <a href="/4WIND" className="overig__link overig__link--text">Wat is het 4WIND project?</a>
                                     </div>
                                 </Col>
                             </Row>
@@ -163,7 +163,7 @@ const Ondernemen = () => {
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a href="/toolsoup">Wat is het Toolsoup project?</a>
+                                        <a href="/toolsoup" className="overig__link overig__link--text">Wat is het Toolsoup project?</a>
                                     </div>
                                 </Col>
                             </Row>
