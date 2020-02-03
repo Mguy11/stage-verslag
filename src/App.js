@@ -42,7 +42,7 @@ function App() {
                 <Route path="/bedrijf" exact component={Bedrijf} />
                 <Route path="/checkins" exact component={Checkins} />
                 <Route path="/reflectie" exact component={Reflectie} />
-                <Route path="/terugkomdag" exact component={Terugkomdagen} />
+                <Route path="/stageterugkomdagen" exact component={Terugkomdagen} />
                 <Route path="/toolsoup" exact component={Toolsoup} />
                 <Route path="/uitwisselingsboek" exact component={Uitwisselingsboek} />
                 <Route patch="/" render={() => <div>404</div>} />

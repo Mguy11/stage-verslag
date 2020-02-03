@@ -13,11 +13,11 @@ import SideNav from '../components/sidenav';
 export default class Onderzoeken extends Component {
     render() {
         return (
-            <div className="onderzoeken">
+            <div className="Overig">
                 <SideNav />
                 <NavBar />
                 <SmallHeader
-                    title = "Onderzoeken"
+                    title = "Overig"
                 />
                 <div className="wrap">
                 <Grid>
@@ -32,7 +32,7 @@ export default class Onderzoeken extends Component {
                                     <a href="/reflectie" className="overig__link">Algemene Reflectie</a>
                                 </li>
                                 <li className="overig__list-item">
-                                    <a href="/terugkomdagen" className="overig__link">Stageterugkomedagen</a>
+                                    <a href="/stageterugkomdagen" className="overig__link">Stageterugkomdagen</a>
                                 </li>
                                 <li className="overig__list-item">
                                     <a href="/uitwisselingsboek" className="overig__link">Uitwisselingsboek</a>

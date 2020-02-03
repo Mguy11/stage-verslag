@@ -8,7 +8,8 @@ export const Footer = () => {
                 <Grid>
                     <Row center="xs">
                         <Col xs={12} lg={6}>
-                            <div className="footer__name"><a href="https://www.linkedin.com/in/martijn-bankert-389491161/" target="__blank">Martijn Bankert</a>&nbsp;&copy;&nbsp;All rights Reserved</div>
+                            <div className="footer__name"><a href="https://www.linkedin.com/in/martijn-bankert-389491161/" target="__blank" className="overig__link overig__link--footer">Martijn Bankert</a>
+                            <span>&nbsp;&copy;&nbsp;All rights Reserved</span></div>
                         </Col>
                     </Row>
                 </Grid>
