@@ -57,6 +57,14 @@ const Ondernemen = () => {
                                     body = "Een andere kleine functie die ik heb mogen toevoegen was de scroll button in de header van de homepagina en in het aanmeldformulier. De knop bestaat uit een pijl, een cirkel en een tekst. Het idee van onze designer was dat wanneer je er overheen hoverd met de muis, de gehele knop zou verkleinen of vergroten. Ik vond dit niet passen bij de functie achter de knop dus heb ik een ander voorstel gedaan, namelijk een kleine animatie waar de pijl naar beneden beweegt wanneer er overheen gehoverd wordt.
                                             Dit is ter indicatie dat er een scrollbeweging zal plaatsvinden op het moment dat er geklikt wordt. Na overleg met onze designer mocht deze mini animatie erin blijven. Dit was een simpele toevoeging, maar het draagt bij aan de gebruiksvriendelijkheid van de website."
                                 />
+                                <Col xs={12}>
+                                    <div className="overig__imagewrapper">
+                                        <span className="overig__text">Normale stand</span>
+                                        <img className="overig__image" src="../images/dura-scroll-1.png" alt="denkstappen-navigatie"></img>
+                                        <span className="overig__text">Hover stand</span>
+                                        <img className="overig__image" src="../images/dura-scroll-2.png" alt="denkstappen-navigatie"></img>
+                                    </div>
+                                </Col>
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
@@ -70,6 +78,9 @@ const Ondernemen = () => {
                                             omdat mijn TypeScript skills niet zo goed waren en er was heel erg weinig documentatie te vinden over Google Maps in Typescript. Na enige tijd heb ik samen met een andere developer toch het Block afgemaakt, maar toen kwam het tweede probleem, namelijk het doorgeven van data uit Umbraco naar RazorScript documenten (C#) en die data vervolgens doorgeven naar TypeScript. Hiervoor heb ik een hoop documentatie doorgenomen van zowel Typescript als C#, maar het was mij niet duidelijk wat ik moest doen. Deze taak is toen overgedragen aan iemand die meer kennis van zaken had en die heeft het dan ook voor ons geregeld.
                                             Later in het project kwam er nog eenzelfde situatie voor waar we op dezelfde manier de data moesten doorgeven, dit heb ik toen wel zelf opgelost."
                                 />
+                                <Col xs={12}>
+                                   <span className="overig__text overig__text--italic">* Helaas geen visueel bewijs van. Mijn rechten waren ondertussen al ingenomen.</span>
+                                </Col>
                                  <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
@@ -79,7 +90,7 @@ const Ondernemen = () => {
                             <Row>
                                 <Col xs={12}>
                                     <div>
-                                        <a className="" href="../assets/documents/Manual_Google_Maps_Block.docx" download>
+                                        <a className="" href="../../public/documents/Manual_Google_Maps_Block.docx" download>
                                             
                                             <span>Download hier de handleiding</span>
                                         </a>
@@ -93,6 +104,13 @@ const Ondernemen = () => {
                                     body = "Tijdens dit project was samenwerking zeker nodig. Ik heb gewerkt in een team van 8 mensen bestaande uit de product owner, een scrummaster, de Development Lead van dit team, de designer, een backender, twee andere developers en ik. Ondertussen zijn er mensen weggegaan en bijgekomen. Met dit team hadden we elke dag Stand Up meetings. Tijdens deze Stand Up’s werd alle voortgang van het project besproken  en alle eventuele problemen aangekaart. Elke twee weken, wanneer de sprint was afgerond, hadden we ook met dit team een retrospective en een planning meeting. We hebben het hele project door alle deadlines gehaald op een aantal kleine dingetjes na.
                                             Uiteindelijk hebben we het project op tijd kunnen opleveren, ondanks de onverwachte toevoegingen en eisen. Ook de samenwerking met een derde partij zorgde voor enige vertraging, maar ook dit hebben we netjes op kunnen lossen."
                                 />
+                                <Col xs={12}>
+                                    <div className="overig__imagewrapper">
+                                        <img className="overig__image" src="../images/dura-scrumbord-1.png" alt="dura-scrumbord-1"></img>
+                                        <img className="overig__image" src="../images/dura-scrumbord-3.png" alt="dura-scrumbord-3"></img>
+                                        <img className="overig__image" src="../images/dura-scrumbord-4.png" alt="dura-scrumbord-4"></img>
+                                    </div>
+                                </Col>
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
@@ -151,7 +169,14 @@ const Ondernemen = () => {
                                     className = "contentblock contentblock--alinea"
                                     title = "Samenwerking & communicatie"
                                     body = "Qua samenwerking is er ook niet veel veranderd in vergelijk met Dura Vermeer. De grootste verschillen waren dat het team nu bestond uit een scrummaster, twee developers en een Lead. Alleen de eerste drie dagen hebben we met drie developers aan het project gewerkt. Ook nu hadden we elke dag een stand up meeting en na de sprint een retrospective. De communicatie binnen het team ging wederom via Microsoft Teams, Azure DevOps en e-mail."
-                                />  
+                                />
+                                <Col xs={12}>
+                                    <div className="overig__imagewrapper">
+                                        <span className="overig__text">Scrumbord tijdens de sprint</span>
+                                        <img className="overig__image" src="../images/4WIND-scrumbord-3.png" alt="4WIND-scrumbord-3"></img>
+                                        <img className="overig__image" src="../images/4WIND-scrumbord-2.png" alt="4WIND-scrumbord-2"></img>
+                                    </div>
+                                </Col>
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
@@ -179,6 +204,12 @@ const Ondernemen = () => {
                                     body = "Het andere onderdeel waar ik aan gewerkt heb was het email template voor DotControl support. Dit heb ik gemaakt in Zendesk support, dat is een onderdeel van Zendesk. Zendesk Support is een tool waarmee je klanten support kan regelen. De eerste stap voor mij was het opzetten van een net e-mail template wat de klant zal zien als er een reactie komt vanuit het Zendesk systeem. Mijn volgende stap was te kijken naar de mogelijkheden van Zendesk Support om er een klantenportal van te maken. 
                                             De bedoeling was dat klanten eventueel zelf een account zouden krijgen om zo direct binnen het systeem tickets aan te kunnen maken. Hierdoor zou de communicatie tussen de klant, support en de desbetreffende teams veel sneller gaan. Hierin heb ik een adviserende rol gehad. Ik heb een klein onderzoek gedaan naar de mogelijkheden hiervoor. Daaruit bleek dat het mogelijk was om dit plan met accounts te realiseren, maar nu is het de vraag of het ook zo geïmplementeerd zal worden."
                                 />
+                                <Col xs={12}>
+                                    <div className="overig__imagewrapper">
+                                        <span className="overig__text">Email template - footer - Support mail</span>
+                                        <img className="overig__image" src="../images/email-template.png" alt="denkstappen-navigatie"></img>
+                                    </div>
+                                </Col>
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = "Samenwerking & communicatie"

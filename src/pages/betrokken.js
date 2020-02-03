@@ -39,6 +39,13 @@ const Betrokken = () => {
                                             Ik heb gevraagd om een wekelijkse Check-in te doen, zo heb ik elke week even een contact moment met mijn stagebegeleider (Martijn Hoogerland). Daarnaast hebben we ook 3x de checklist doorgenomen, hierdoor had ik gedurende mijn gehele stage een goed overzicht over hoe ik presteerde voor het bedrijf en waar ik nog kon verbeteren. 
                                             Ik merkte al vanaf de 3e week dat er een verschil ontstond qua werk niveau voor mezelf. Ik kreeg minder comments op Pull Requests (PR’s), ik hoefde minder te vragen en dat resulteerde allemaal in een betere score tijdens mijn Check-In. Dit gaf mij het gevoel dat ik op de goede weg zat en ook meer motivatie om nog beter mijn best te doen."
                                 />
+                                <Col xs={12}>
+                                    <div>
+                                        <span className="contentblock">Lees hier alles over Check-In's: </span>
+                                        <a href="/checkins">Check-In's</a>
+                                        <br/>
+                                    </div>
+                                </Col> 
                             </Row>
                         </div>
                         <div label="Dura Vermeer">

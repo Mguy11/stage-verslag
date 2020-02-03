@@ -13,7 +13,7 @@ const CheckIns = () => {
           <SideNav />
           <NavBar />
           <SmallHeader 
-              title = "CheckIns"
+              title = "Check-In's"
           />
           <div className="wrap">
               <Grid>
@@ -49,8 +49,14 @@ const CheckIns = () => {
                           <li>week 3: Mijn algemene score was in de derde week groen. Dit hield in dat ik presteerde naar mijn niveau en de verwachtingen die het bedrijf daarbij had.</li>
                           <li>week 11: Mijn algemene score was wederom groen. Ik presteerde nog steeds volgens alle verwachtingen.</li>
                           <li>week 22: Mijn algemene score was weer groen gebleven. Mijn niveau voldeed wederom aan de verwachtingen.</li>
-                      </ul>
+                      </ul> 
                   </div>
+                  <Col xs={12}>
+                      <div className="overig__imagewrapper">
+                          <span className="overig__text">Color score van alle drie de Check-In's</span>
+                          <img className="overig__image" src="../images/color-score.png" alt="denkstappen-navigatie"></img>
+                      </div>
+                  </Col>
                 </Row> 
                 <Row>
                   <h3>Soft skill ratings:</h3>

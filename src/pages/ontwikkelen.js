@@ -82,12 +82,42 @@ const Ontwikkelen = () => {
                                     body = "Mijn nieuwe uitdaging was de cookiemelding bouwen. Hier zaten een paar nieuwe functies in voor mij die ik nog nooit gemaakt had. Zo moest het cookie venster in het midden van het scherm komen als pop-up en de rest van het scherm wazig maken. Daarnaast moest de cookie geplaatst worden als de gebruiker op “accepteren” zou klikken. Het plaatsen van de cookie heb ik toen opgelost met JavaScript, dit koste wat tijd om uit te zoeken hoe dit werkte, maar uiteindelijk heb ik het allemaal werkend gekregen. De cookie is vervolgens in gebruik genomen, 
                                             totdat de klant met de vraag kwam of we de cookie toch konden aanpassen. De cookie moest niet de hele pagina afschermen, maar alleen onderaan de pagina verschijnen. Daarop is de cookie aangepast en opnieuw geïmplementeerd. Een aantal weken later kwam de klant wederom terug op het design voor de cookie. Er moest een  knop komen om de cookies te kunnen weigeren. Je bent als bedrijf verplicht de mogelijkheid te bieden om cookies te kunnen weigeren. Ik heb deze taak opgepakt en de cookie omgebouwd. Hieronder staan de drie verschillende versies van de cookie melding."
                                 />
+                                <Col xs={12}>
+                                    <div className="overig__imagewrapper">
+                                        <span>1e versie</span>
+                                        <img className="overig__image" src="../images/cookie-versie-1.png" alt="huisstijl"></img>
+                                        <span>2e versie</span>
+                                        <img className="overig__image" src="../images/cookie-versie-2.png" alt="huisstijl"></img>
+                                        <span>3e versie</span>
+                                        <img className="overig__image" src="../images/cookie-versie-3.png" alt="huisstijl"></img>
+                                        <span>Uiteindelijke versie</span>
+                                        <img className="overig__image" src="../images/dura-cookie-melding.png" alt="huisstijl"></img>
+                                    </div>
+                                </Col>
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
                                     body = "Een onderdeel waarvan ik dacht dat het wat makkelijker zou zijn waren de social share buttons. Deze knoppen worden toegevoegd aan de detailpagina’s van nieuwsberichten. Met deze knoppen kan de gebruiker het nieuwsbericht delen via social media. Het was niet de bedoeling dat we hier veel tijd aan zouden besteden om alles zelf te ontwikkelen.Ik moest kijken naar een goede plugin of tool, zodat ik alleen de front end hoefde te bouwen. Uiteindelijk heb ik gekozen om “sharethis” te implementeren. Ik had alles netjes gebouwd en toen kwam ik er achter dat ik op onze development omgeving niet kon testen. 
                                             Er zat namelijk een ip-block op en dus was de site onbereikbaar van buitenaf. Uiteindelijk heb ik samen met Martijn hier naar gekeken en hebben we tijdelijk de ip-block uitgezet. Toen kwam ik er achter dat ik nog een extra class moest toevoegen op alle knoppen om ze functioneel te maken. Nadat alles was toegevoegd en getest was waren ook deze knoppen klaar om doorgezet te worden naar de live websites."
                                 />
+                                <Col xs={12}>
+                                    <div className="overig__imagewrapper">
+                                        <img className="overig__image" src="../images/dura-social-share.png" alt="huisstijl"></img>                                 
+                                    </div>
+                                </Col>
+                                <ContentBlockLarge
+                                    className = "contentblock contentblock--alinea"
+                                    title = ""
+                                    body = "Verder heb ik ook een aanmeldformulier mogen bouwen. Hiermee kunnen de potentiële huizenkopers zich aanmelden, zodat ze op de hoogte gehouden kunnen worden over het project. Om dit formulier te bouwen heb ik samen moeten werken met de backend developer van ons project, omdat we de invoervelden op een vaste manier moesten ophalen. Nadat we samen de basis hadden opgezet kon ik de front end opzetten. Het formulier wat ik gebouwd heb is helaas nog niet direct in gebruik genomen, omdat de koppeling met een derde partij nog niet klaar was. Er staat nu dus een tijdelijk formulier op de live websites."
+                                />
+                                <Col xs={12}>
+                                    <div className="overig__imagewrapper">
+                                        <span className="overig__text">Tijdelijk formulier</span>
+                                        <img className="overig__image" src="../images/dura-aanmeldformulier-tijdelijk.png" alt="huisstijl"></img>
+                                        <span className="overig__text">Mijn formulier</span>
+                                        <img className="overig__image" src="../images/dura-aanmeldformulier.png" alt="huisstijl"></img>                                 
+                                    </div>
+                                </Col>
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
@@ -96,7 +126,7 @@ const Ontwikkelen = () => {
                             </Row>
                             <Row>
                                 <Col xs={12}>
-                                    <div className="contentblock">
+                                    <div className="overig__link">
                                         <span>Lees hier alles over het Google Maps Blok</span>
                                         <a href="/ondernemen"> Ondernemen - Google Maps</a>
                                     </div>
@@ -110,12 +140,23 @@ const Ontwikkelen = () => {
                                             Hij wilde toch dat alles netjes op elkaar zou aansluiten en gaf de opdracht dit te regelen. Al snel ontdekte ik dat dit niet mogelijk was met de huidige opbouw van de footer. We maken namelijk gebruik van een zogenoemd “grid”. Door het gebruik van kolommen in dit grid konden alle footer elementen niet direct op elkaar aansluiten. Daarvoor kwam ik met het voorstel de footer opnieuw op te zetten en geen gebruik te maken van de kolommen in het grid, maar alles uit te lijnen door middel van flexbox. Hiermee heb ik precies kunnen bouwen wat onze scrummaster had gevraagd. 
                                             Dit was voor mij een mooie uitdaging, want ik had nog niet veel met flexbox gedaan zonder het grid. Ik heb het allemaal voor elkaar gekregen en het resultaat mag er zijn."
                                 />
+                                <Col xs={12}>
+                                    <div className="overig__imagewrapper">
+                                        <span>Oude footer</span>
+                                        <img className="overig__image" src="../images/footer-oud.png" alt="oude-footer-dura"></img>
+                                        <span>Nieuwe footer</span>
+                                        <img className="overig__image" src="../images/dura-footer.png" alt="nieuwe-footer-dura"></img>
+                                    </div>
+                                </Col>
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
                                     body = "Tenslotte ben ik bezig geweest met het proces, om een nieuwe project website op te zetten, te verbeteren en versnellen. Ondertussen is het mogelijk om binnen 15 minuten de hele website klaar te hebben voor de technische oplevering aan de klant, tenzij er speciale pagina’s of blokken toegevoegd moeten worden. Dit is aardige vooruitgang ten opzichte van het eerste setup proces waarbij elke keer alle pagina’s en  bijbehorende blokken opnieuw aangemaakt moesten worden. Ik heb dit gedaan door Content Templates aan te maken in het CMS. Op deze manier kan je pagina’s al volledig vullen met blokken en dummy content en ze vervolgens opslaan. 
                                             Deze zogeheten Content Templates kun je dan gebruiken als basis pagina wanneer je een nieuwe pagina aanmaakt. De klant kan dan sneller aan de slag met het vullen van de eigen content."
                                 />
+                                <Col xs={12}>
+                                   <span className="overig__text overig__text--italic">* Helaas geen visueel bewijs van. Mijn rechten waren ondertussen al ingenomen.</span>
+                                </Col>
                             </Row>
                         </div>
                         <div label="4WIND">
@@ -132,11 +173,21 @@ const Ontwikkelen = () => {
                                     title = ""
                                     body = "De navigatie van de 4Wind website heeft een aantal functies ingebouwd zitten die niet gebruikelijk zijn. Er werd tijdens het bugfixen vastgesteld dat de navigatie nog niet de functionaliteit had die hij zou moeten hebben. De opdracht om dat op te lossen werd bij mij neergelegd. Ik had continu gezegd dat ik klaar was voor meer uitdaging en die kreeg ik nu. Voor ik überhaupt kon beginnen met bouwen moest ik eerst de code doornemen om te kijken wat er fout ging en om te checken wat er nog miste. De conclusie was al snel dat er niet gedacht was aan de header onder de navigatie en dat het submenu moest openklappen in combinatie met een active state."
                                 />
+                                <Col xs={12}>
+                                    <div className="overig__imagewrapper">
+                                        <img className="overig__image" src="../images/4Wind-navigatie.png" alt="4WIND-navigatie"></img>
+                                    </div>
+                                </Col>
                                 <ContentBlockLarge
                                     className = "contentblock contentblock--alinea"
                                     title = ""
                                     body = "Ik ben begonnen met het opzetten van een schema om de denkstappen duidelijk te maken voor mezelf en hoe ik alles moest gaan opbouwen. Met wat hulp van een collega en Martijn heb ik een schema gemaakt en kon ik beginnen met bouwen. Ondanks dat ik een schema had was het een hele uitdaging om het in elkaar te zetten. Er moesten erg veel uitzonderingen gemaakt worden in de code waardoor ik op een gegeven moment het overzicht verloor. Het is gelukt de navigatie werkend te krijgen, dat was voor mij een moment van voldoening."
                                 />
+                                <Col xs={12}>
+                                    <div className="overig__imagewrapper">
+                                        <img className="overig__image" src="../images/denkstappen-4WIND.jpg" alt="denkstappen-navigatie"></img>
+                                    </div>
+                                </Col>
                             </Row> 
                         </div>
                         <div label="Stageverslag website">

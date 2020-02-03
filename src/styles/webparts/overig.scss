@@ -55,4 +55,24 @@
 
         }
     }
+
+    &__imagewrapper {
+        max-width: 70rem;
+    }
+
+    &__image {
+        display: block;
+        margin: 0 auto;
+        max-width: 55rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__text {
+        font-family: 'Quicksand', sans-serif;
+        color: #ffffff;
+        
+        &--italic {
+            font-style: italic; 
+        }
+    }
 }

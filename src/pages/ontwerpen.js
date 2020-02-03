@@ -42,7 +42,19 @@ const Ontwerpen = () => {
                                 body = "Voor mijn eigen website heb ik gebruik gemaakt van een aantal ontwerp technieken. Zo heb ik eerst een brainstormsessie gehouden voor het algehele ontwerp voor mijn website."
                             />
                             <Col xs={12}>
-                                <Slider /> 
+                                <div className="overig__imagewrapper">
+                                    <img className="overig__image" src="../images/mindmap.jpg"></img>
+                                </div>
+                            </Col>
+                            <ContentBlockLarge
+                                className = "contentblock contentblock--alinea"
+                                title = ""
+                                body = "Ook heb ik een huisstijl overzicht gemaakt voor mijn eigen website. Hierin heb ik alle belangrijke kleuren en het font vastgelegd. "
+                            />
+                            <Col xs={12}>
+                                <div className="overig__imagewrapper">
+                                    <img className="overig__image" src="../images/Huisstijl-stage.png" alt="huisstijl"></img>
+                                </div>
                             </Col>
                         </Row>
                     </div>
@@ -54,6 +66,13 @@ const Ontwerpen = () => {
                                 body = "Uiteindelijk had ik voor mezelf duidelijk hoe de website er uit moest komen te zien. Het design is een beetje gebaseerd op al het werk wat ik gedaan heb tijdens mijn stage, maar wel met een Martijn Bankert filter er overheen. Oftewel een donker thema, alles strak en recht en vooral functioneel. Maar voor ik het echte design heb gemaakt heb ik eerst wireframes opgesteld. 
                                         Hierdoor had ik een goed overzicht waar alles zou komen op mijn website en kon ik van tevoren nog dingen aanpassen. Dat scheelde tijd tijdens het ontwikkelen."
                             />
+                            <Col xs={12}>
+                                <div className="overig__imagewrapper">
+                                    <img className="overig__image" src="../images/home-page.jpg" alt="home-page-wireframe"></img>
+                                    <img className="overig__image" src="../images/content-page.jpg" alt="content-page-wireframe"></img>
+                                    <img className="overig__image" src="../images/backup-page.jpg" alt="backup-page-wireframe"></img>
+                                </div>
+                            </Col>
                         </Row>   
                     </div>
                     <div label="Navigatie website">
@@ -64,6 +83,16 @@ const Ontwerpen = () => {
                                 body = "Een onderdeel waar ik veel tijd in gestoken heb, is mijn navigatie. Dit is altijd al één van de meest complexe onderdelen van een website en dat was nu geen uitzondering. Ik heb hem ondertussen al een aantal keer opnieuw gebouwd, omdat ik het niet helemaal eens was met het uiterlijk of hoe hij functioneerde. Uiteindelijk is de huidige versie de versie die ik het beste vond. 
                                         Hij is voor desktop simpel, overzichtelijk en vooral abstract. Voor mobile is hij dat ook, maar op een andere manier. Het enige waar ik nog niet tevreden over ben, is de animatie. Die zal ik hoogstwaarschijnlijk nog een keer veranderen."
                             />
+                            <Col xs={12}>
+                                <div className="overig__imagewrapper">
+                                    <span className="overig__text">Navigatie in non-sticky state</span>
+                                    <img className="overig__image" src="../images/navigatie-1.png" alt="navigatie-1"></img>
+                                    <span className="overig__text">Navigatie in sticky state</span>
+                                    <img className="overig__image" src="../images/navigatie-2.png" alt="navigatie-2"></img>
+                                    <span className="overig__text">Mobiele navigatie</span>
+                                    <img className="overig__image" src="../images/navigatie-3.png" alt="navigatie-3"></img>
+                                </div>
+                            </Col>
                         </Row>  
                     </div>
                     <div label="User Stories">
@@ -89,6 +118,11 @@ const Ontwerpen = () => {
                                     <li>Als bezoeker wil ik dat de content leesbaar is, zodat ik het duidelijk is.</li>
                                 </ul>
                             </div>
+                            <Col xs={12}>
+                                <div className="overig__imagewrapper">
+                                    <img className="overig__image" src="../images/Trello.png" alt="home-page-wireframe"></img>
+                                </div>
+                            </Col>
                         </Row>  
                     </div>
                     <div label="Wat heb ik geleerd?">

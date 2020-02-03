@@ -24,7 +24,7 @@ export default class Onderzoeken extends Component {
                     <Row>
                         <Col xs={12}>
                             <div style={{textAlign: 'center'}}>
-                                <a href="../assets/documents/Onderzoeksverslag-SEO-SPA-versie-2.pdf" download>Download hier mijn onderzoek als PDF</a>
+                                <a href="../documents/Onderzoeksverslag-SEO-SPA-versie-2.pdf" download>Download hier mijn onderzoek als PDF</a>
                             </div>
                         </Col>
                     </Row>
