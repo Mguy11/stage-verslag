@@ -20,11 +20,67 @@ const CheckIns = () => {
                 <Row>
                   <ContentBlockLarge
                     className = "contentblock contentblock--alinea"
+                    title = "Wat zijn Check-In’s?"
+                    body = "Check-In’s zijn feedback momenten die DotControl en RockBoost ingevoerd hebben voor alle medewerkers.
+                            Tijdens deze Check-In’s loop je  een formulier met punten door waar een score aan hangt. Op basis van jouw prestaties wordt het formulier ingevuld. Aan de hand van het formulier is vervolgens te zien waar je sterke en minder sterke punten liggen en waar je dus meer op moet focussen."
+                  />
+                  <ContentBlockLarge
+                    className = "contentblock contentblock--alinea"
                     title = ""
-                    body = "Voor het Dura Vermeer project heb ik in eerste instantie veel moeten uitzoeken. Vooral omdat dit mijn eerste project was waar ik aan mee ging werken en ik nog geen idee had wat voor standaarden ze hier gebruikten en hoe het nieuwe CMS werkte. De eerste dagen ben ik vooral bezig geweest met rondklikken, vragen stellen en notities maken, zodat ik een basis had om op door te bouwen. Het CMS wat we gingen gebruiken heet Umbraco.
-                            Het is een redelijk uitgebreid, maar vooral gebruiksvriendelijk CMS. Aangezien de mensen van Dura Vermeer met het CMS moet gaan werken wilden we alles zo netjes en compleet mogelijk opleveren. Het is mogelijk om omschrijvingen toe te voegen bij alle invoervelden in het CMS. Dit had ik allemaal netjes gedaan in het Nederlands, maar toen kwam het punt van meertaligheid in het CMS ter sprake. Het is dus mogelijk om de taal van het CMS per gebruiker in te stellen, wat bijvoorbeeld handig is voor mensen die de Nederlandse taal niet beheersen.
-                            Het CMS vertaald dan alle invoerveld kopjes/titels, maar de beschrijvingen blijven Nederlands. Ik bracht toen naar voren of het niet mogelijk was die beschrijvingen ook te vertalen. Niemand wist of dat überhaupt mogelijk was, dus ben ik wat onderzoek gaan doen naar de mogelijkheden. Ook op internet waren er geen duidelijke antwoorden te vinden of het mogelijk was dit te doen. Uiteindelijk kreeg ik vanuit DotControl groen licht om contact op te nemen met Umbraco Support. Daar heb ik dezelfde vraag gesteld of het mogelijk was om vertalingen toe te voegen bij omschrijvingen van velden in het CMS.
-                            Tot mijn verbazing kreeg ik daar het antwoord op dat het nog niet mogelijk was en de vraag of ik dat eventueel zelf wilde ontwikkelen voor het CMS. Helaas was daar geen tijd en budget voor binnen dit project, maar ik heb in ieder geval alles geprobeerd om deze extra functie toe te voegen."
+                    body = "Het formulier werkt twee kanten op. Je krijgt als werknemer feedback vanuit het bedrijf en je krijgt de kans om feedback terug te geven. Op deze manier kan iedereen blijven verbeteren waar nodig.
+                            Ik vond het als stagiair fijn om dit formulier ook een aantal keer in te vullen, zodat ik een idee had hoe ik mezelf ontwikkelde tijdens deze stageperiode."
+                  />
+                </Row>
+                <Row>
+                  <div>
+                    <h3>Waaruit bestaat een Check-In formulier?</h3>
+                      <ul>
+                          <li>Color score (DotControl naar werknemer)</li>
+                          <li>Soft skills ratings</li>
+                          <li>KPI’s (Key Performance indicators)</li>
+                          <li>Feedback naar het bedrijf (werknemer naar DotControl)</li>
+                      </ul>
+                  </div>
+                </Row> 
+                <Row>
+                  <div>
+                    <h3>Mijn Algemene Score:</h3>
+                      <ul>
+                          <li>week 3: Mijn algemene score was in de derde week groen. Dit hield in dat ik presteerde naar mijn niveau en de verwachtingen die het bedrijf daarbij had.</li>
+                          <li>week 11: Mijn algemene score was wederom groen. Ik presteerde nog steeds volgens alle verwachtingen.</li>
+                          <li>week 22: Mijn algemene score was weer groen gebleven. Mijn niveau voldeed wederom aan de verwachtingen.</li>
+                      </ul>
+                  </div>
+                </Row> 
+                <Row>
+                  <h3>Soft skill ratings:</h3>
+                  <ContentBlockLarge
+                    className = "contentblock contentblock--alinea"
+                    title = ""
+                    body = "week 3: Tijdens de eerste Check-In kreeg ik op de meeste punten een 3. Dit hield in dat ik op de goede weg zat, maar nog genoeg ruimte had om te kunnen verbeteren. Een aantal punten werden zelfs wat lager beoordeeld. Dit waren de punten waar ik echt aan moest werken. De belangrijkste daarvan was proactiveness.
+                            Proactiveness heeft te maken met actief bezig zijn met het project, meedenken en anticiperen. Dat waren dingen die ik in de eerste weken moeilijk vond en daardoor scoorde ik ook lager. Een ander punt was Detail oriented werken. Dit had vooral te maken met de manier waarop ik taken uitvoerde. Vaak ging het hier om stukken code die tijdens een Pull Request werden afgekeurd,
+                            omdat de code niet goed was of niet voldeed aan alle eisen. Voor de eerstvolgende Check-In was het de bedoeling om extra hard te werken aan deze punten, zodat ze zouden verbeteren."
+                  />
+                  <ContentBlockLarge
+                    className = "contentblock contentblock--alinea"
+                    title = ""
+                    body = "week 11: Tijdens mijn tweede Check-In was de feedback vrij positief. Ik had me al beter ontwikkeld ten opzichte van de eerste Check-In. Ik scoorde al hoger op proactiveness, maar er was zeker nog ruimte om te verbeteren. Daarnaast was het punt Detail oriented werken veel beter geworden, hij was namelijk van een 2 naar een 4 gegaan. Ik maakte dus goede vorderingen. Ik had me voorgenomen zo door te gaan, want ik wil mezelf alleen maar verbeteren."
+                  />
+                  <ContentBlockLarge
+                    className = "contentblock contentblock--alinea"
+                    title = ""
+                    body = "week 22: Dit was mijn laatste Check-In. Dit keer kreeg ik ook extra feedback per punt, beoordeeld over mijn gehele stageperiode. Het was duidelijk dat mijn proactiveness nog verder verbeterd was. Er werd duidelijk aangegeven dat ik in het begin van mijn stageperiode heel duidelijke uitleg nodig had om te starten met werken, 
+                            maar nu aan het einde ging dat allemaal vanzelf en kon ik zelfs problemen spotten en direct oplossen. Verder was ik ook vooruit gegaan op het gebied van Creative output & ideas. Ik heb goed kunnen laten zien welke skills ik beheers op het UX deel na. Daar hadden ze graag meer willen zien. Ik heb daarop ook aangegeven dat ik het moeilijk vond om mijn eigen creativiteit te gebruiken, omdat we volgens designs moeten werken en ik daarvan niet af durf te wijken.
+                            Overall kreeg ik een zeer positieve beoordeling over hoe ik mezelf heb ontwikkeld binnen deze korte tijd en ik moet vooral zo door blijven gaan en mijn skills blijven verbeteren."
+                  />
+                </Row>
+                <Row>
+                  <h3>KPI’s</h3>
+                  <ContentBlockLarge
+                    className = "contentblock contentblock--alinea"
+                    title = ""
+                    body = "De KPI’s hebben we ook tijdens elke Check-In ingevuld. Deze punten werden beoordeeld met behaald, niet behaald of n.v.t. De KPI’s gaan vooral over hoe jij je uren bijhoud in Simplicate, of je je code etc. in één keer goed oplevert, of je op tijd bent bij meetings en afspraken en als laatste hoe je communicatie is binnen het bedrijf. Op alles, behalve het opleveren van mijn code, kreeg ik behaald. De laatste heb ik nog niet “behaald”, 
+                            omdat ik nog niet al mijn Pull Request foutloos heb opgeleverd. Als ik nog iets beter zou testen op responsiveness en in alle browsers kan ik alles met “behaald” afsluiten."
                   />
                 </Row>
               </Grid>

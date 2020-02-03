@@ -13,7 +13,7 @@ const Terugkomdagen = () => {
           <SideNav />
           <NavBar />
           <SmallHeader 
-              title = "Terugkomdagen"
+              title = "Stageterugkomdagen"
           />
           <div className="wrap">
               <Grid>
