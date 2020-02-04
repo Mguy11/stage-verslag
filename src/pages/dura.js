@@ -32,7 +32,7 @@ const DuraVermeer = () => {
                 </Row>
                 <Row>
                     <Col xs={12}>
-                        <div className="contentblock">
+                        <div className="contentblock" style={{margin: "2rem 0"}}>
                           <span>Kijk hier voor de websites die gemaakt zijn met het nieuwe platform:</span>
                           <ul>
                             <li style={{listStyleType: "none"}}><a href="https://elementshaarlem.nl/">Elements Haarlem</a></li>

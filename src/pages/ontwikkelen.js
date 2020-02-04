@@ -124,13 +124,11 @@ const Ontwikkelen = () => {
                                     body = "Het Google Maps block was ook een mooi voorbeeld van doorontwikkeling. Alles hierover heb ik besproken in deze post"
                                 />
                             </Row>
-                            <Row>
-                                <Col xs={12}>
-                                    <div className="overig__link">
-                                        <span>Lees hier alles over het Google Maps Blok</span>
-                                        <a href="/ondernemen"> Ondernemen - Google Maps</a>
-                                    </div>
-                                </Col>
+                            <Row>                             
+                                <div>
+                                    <span>Lees hier alles over het Google Maps Blok</span>
+                                    <a href="/ondernemen"> Ondernemen - Google Maps</a>
+                                </div>
                             </Row>
                             <Row>
                                 <ContentBlockLarge

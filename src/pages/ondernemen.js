@@ -89,7 +89,7 @@ const Ondernemen = () => {
                             </Row>
                             <Row>
                                 <Col xs={12}>
-                                    <div>
+                                    <div style={{margin: "2rem 0"}}>
                                         <a className="" href="../../public/documents/Manual_Google_Maps_Block.docx" download>
                                             
                                             <span>Download hier de handleiding</span>

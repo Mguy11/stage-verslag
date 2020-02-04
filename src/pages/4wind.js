@@ -32,7 +32,7 @@ const FourWind = () => {
                 </Row>
                 <Row>
                     <Col xs={12}>
-                        <div className="contentblock">
+                        <div className="contentblock" style={{margin: "2rem 0"}}>
                           <span>Dit is de huidige website van 4WIND</span>
                           <ul>
                             <li style={{listStyleType: "none"}}><a href="https://4windkitesurfles.nl/">4WIND kitesurfles</a></li>

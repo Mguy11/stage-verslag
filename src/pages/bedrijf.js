@@ -26,8 +26,8 @@ const Bedrijf = () => {
                   />
                 </Row>
                 <Row>
-                    <Col xs={12}>
-                        <div className="contentblock">
+                    <Col xs={12} >
+                        <div className="contentblock" style={{margin: "2rem 0"}}>
                           <span>De websites van beide bedrijven zijn hier te vinden: </span>
                           <ul>
                             <li style={{listStyleType: "none"}}><a href="https://dotcontrol.com/">DotControl</a></li>
@@ -37,12 +37,37 @@ const Bedrijf = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={12}>
-                      <div className="colofon">
-                          
-                      </div>
-                    </Col>
+                  <h2 style={{color: "#ffffff", fontWeight:"800"}}>Colofon</h2>
                 </Row>
+                <Row>
+                    <div>
+                      <span style={{color: "#ffffff", fontWeight:"800"}}>Stagiair</span>
+                        <ul>
+                            <li style={{listStyleType: "none"}}>Martijn Bankert</li>
+                            <li style={{listStyleType: "none"}}>0911554</li>
+                            <li style={{listStyleType: "none"}}>Creative Media and Game Technologies</li>
+                            <li style={{listStyleType: "none"}}>Stageperiode: 02-09-2019 t/m 31-01-2020</li>                 
+                        </ul>
+                        <span style={{color: "#ffffff", fontWeight:"800"}}>Stagebedrijf</span>
+                        <ul>
+                            <li style={{listStyleType: "none"}}>DotControl</li>
+                            <li style={{listStyleType: "none"}}>Creative Agency</li>
+                            <li style={{listStyleType: "none"}}>Schiehal 8, van Nelleweg 1, 3044 BC Rotterdam</li>
+                        </ul>
+                        <span style={{color: "#ffffff", fontWeight:"800"}}>Stagebegeleider DotControl</span>
+                        <ul>
+                            <li style={{listStyleType: "none"}}>Martijn Hoogerland</li>
+                            <li style={{listStyleType: "none"}}>Team lead</li>
+                            <li style={{listStyleType: "none"}}>Developer.</li>
+                        </ul>
+                        <span style={{color: "#ffffff", fontWeight:"800"}}>Stagebegeleider Hogeschool Rotterdam</span>
+                        <ul>
+                            <li style={{listStyleType: "none"}}>Roel Hooiring</li>
+                            <li style={{listStyleType: "none"}}>Hogeschool Rotterdam</li>
+                            <li style={{listStyleType: "none"}}>Wijnhaven 99 -107, 3011 WN Rotterdam</li>
+                        </ul>
+                    </div>
+                </Row>  
               </Grid>
           </div>
           <Footer />

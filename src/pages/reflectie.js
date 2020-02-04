@@ -21,10 +21,24 @@ const Reflectie = () => {
                   <ContentBlockLarge
                     className = "contentblock contentblock--alinea"
                     title = ""
-                    body = "Voor het Dura Vermeer project heb ik in eerste instantie veel moeten uitzoeken. Vooral omdat dit mijn eerste project was waar ik aan mee ging werken en ik nog geen idee had wat voor standaarden ze hier gebruikten en hoe het nieuwe CMS werkte. De eerste dagen ben ik vooral bezig geweest met rondklikken, vragen stellen en notities maken, zodat ik een basis had om op door te bouwen. Het CMS wat we gingen gebruiken heet Umbraco.
-                            Het is een redelijk uitgebreid, maar vooral gebruiksvriendelijk CMS. Aangezien de mensen van Dura Vermeer met het CMS moet gaan werken wilden we alles zo netjes en compleet mogelijk opleveren. Het is mogelijk om omschrijvingen toe te voegen bij alle invoervelden in het CMS. Dit had ik allemaal netjes gedaan in het Nederlands, maar toen kwam het punt van meertaligheid in het CMS ter sprake. Het is dus mogelijk om de taal van het CMS per gebruiker in te stellen, wat bijvoorbeeld handig is voor mensen die de Nederlandse taal niet beheersen.
-                            Het CMS vertaald dan alle invoerveld kopjes/titels, maar de beschrijvingen blijven Nederlands. Ik bracht toen naar voren of het niet mogelijk was die beschrijvingen ook te vertalen. Niemand wist of dat überhaupt mogelijk was, dus ben ik wat onderzoek gaan doen naar de mogelijkheden. Ook op internet waren er geen duidelijke antwoorden te vinden of het mogelijk was dit te doen. Uiteindelijk kreeg ik vanuit DotControl groen licht om contact op te nemen met Umbraco Support. Daar heb ik dezelfde vraag gesteld of het mogelijk was om vertalingen toe te voegen bij omschrijvingen van velden in het CMS.
-                            Tot mijn verbazing kreeg ik daar het antwoord op dat het nog niet mogelijk was en de vraag of ik dat eventueel zelf wilde ontwikkelen voor het CMS. Helaas was daar geen tijd en budget voor binnen dit project, maar ik heb in ieder geval alles geprobeerd om deze extra functie toe te voegen."
+                    body = "Ik was echt naar mijn stage aan het toeleven. Ik had in jaar twee al snel geen zin meer in school. 
+                            Dit had vooral te maken met ongemotiveerde teamleden waardoor het moeilijk was om in mijn eentje gemotiveerd te blijven. Toen het eindelijk zover was viel het toch wel zwaar. Ik had namelijk snel het idee dat ik niet goed genoeg was om daar stage te lopen. 
+                            Ik werd een beetje in het diepe gegooid. Heel af en toe heb ik mijn collega om hulp gevraagd, maar ik wilde niet te veel vragen. Ik wilde voorkomen dat ik als “lastig” zou overkomen. 
+                            Doordat ik dit hele verkeerde idee gevormd had voor mezelf maakte ik het alleen maar lastiger voor mezelf. 
+                            Daarbij hielp het ook niet mee dat ik keer op keer weer feedback kreeg op mijn Pull Requests. Dit kwam bij mij vooral binnen als commentaar."
+                  />
+                  <ContentBlockLarge
+                    className = "contentblock contentblock--alinea"
+                    title = ""
+                    body = "Na een paar weken en een aantal gesprekken met mijn stagebegeleider had ik eindelijk duidelijk voor mezelf dat ik daar was om te leren, dat ik vragen mocht stellen en vooral dat ik daar was als stagiair. 
+                            Ik hoefde dus niet alles al te weten en al mijn werk foutloos op te leveren, in plaats daarvan moest ik gewoon mijn best doen en proberen mezelf te verbeteren waar ik kon. Dat heb ik ook zeker gedaan. Elke week kreeg ik nieuwe feedback en die heb ik omgezet in leerdoelen voor mezelf. 
+                            Zo heb ik mezelf op meerdere punten kunnen verbeteren. Mijn belangrijkste verbetering was het omgaan met feedback. Dit gaat mij in de toekomst zeker helpen."
+                  />
+                  <ContentBlockLarge
+                    className = "contentblock contentblock--alinea"
+                    title = ""
+                    body = "Wat ik mee wil nemen voor mijn afstuderen zijn de volgende dingen. Ik wil voor mijn afstudeerstage een bedrijf kiezen waar ik kan gaan werken aan een onderwerp wat ik wil onderzoeken. 
+                            Verder ga ik zorgen dat ik op een goede manier om ga met feedback, zodat ik de situaties die zich voor deden tijdens deze stage kan voorkomen. Als laatste moet ik ook zorgen dat ik wat meer vertrouwen heb in mijn skills en vooral mezelf. Met die set aan verbeteringen denk ik dat ik klaar ben om mijn afstuderen te starten."
                   />
                 </Row>
               </Grid>
